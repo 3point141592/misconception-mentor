@@ -1,0 +1,140 @@
+{
+  "misconceptions": [
+    {
+      "id": "FRAC-01",
+      "topic": "fractions",
+      "name": "Adding denominators",
+      "description": "Adding the denominators when adding fractions instead of finding a common denominator.",
+      "evidence_patterns": ["added the bottom numbers", "added denominators", "4+2=6", "3+6=9"],
+      "remediation_template": "When adding fractions, you need a COMMON denominator first. Only the numerators (top numbers) get added. The denominator stays the same once both fractions share it."
+    },
+    {
+      "id": "FRAC-02",
+      "topic": "fractions",
+      "name": "Forgetting to convert",
+      "description": "Not converting fractions to have the same denominator before adding or subtracting.",
+      "evidence_patterns": ["just added", "didn't change", "kept the same"],
+      "remediation_template": "Before adding or subtracting fractions, convert them to have the same denominator. Find the least common multiple (LCM) of both denominators, then adjust each fraction."
+    },
+    {
+      "id": "FRAC-03",
+      "topic": "fractions",
+      "name": "Adding numerators AND denominators",
+      "description": "Adding both the top and bottom numbers separately when adding fractions.",
+      "evidence_patterns": ["added top and bottom", "1+1=2 and 4+2=6", "added everything"],
+      "remediation_template": "Only numerators get added! The denominator represents the size of each piece. You can't add pieces of different sizes directly - first make them the same size (common denominator)."
+    },
+    {
+      "id": "FRAC-04",
+      "topic": "fractions",
+      "name": "Subtraction direction error",
+      "description": "Subtracting in the wrong order or confusing which number to subtract from which.",
+      "evidence_patterns": ["subtracted wrong way", "flipped", "backwards"],
+      "remediation_template": "In subtraction, order matters! The first fraction minus the second. Line them up carefully and subtract numerators in the correct order."
+    },
+    {
+      "id": "FRAC-05",
+      "topic": "fractions",
+      "name": "Equivalent fraction confusion",
+      "description": "Not understanding that equivalent fractions represent the same value.",
+      "evidence_patterns": ["different numbers", "not the same", "2/4 is bigger"],
+      "remediation_template": "Equivalent fractions show the same amount! 2/4 = 1/2 because if you divide both top and bottom by 2, you get 1/2. Think of pizza slices - 2 out of 4 slices is the same as 1 out of 2."
+    },
+    {
+      "id": "FRAC-06",
+      "topic": "fractions",
+      "name": "Simplification error",
+      "description": "Incorrectly simplifying fractions or not recognizing when to simplify.",
+      "evidence_patterns": ["didn't simplify", "wrong simplification", "divided wrong"],
+      "remediation_template": "To simplify, divide BOTH the numerator and denominator by the same number (their GCF). 2/4 ÷ 2/2 = 1/2. Both parts must be divided by the same amount!"
+    },
+    {
+      "id": "NEG-01",
+      "topic": "negatives",
+      "name": "Sign confusion in addition",
+      "description": "Confusing when to add vs subtract when dealing with negative numbers.",
+      "evidence_patterns": ["got the sign wrong", "positive instead", "negative instead", "confused plus minus"],
+      "remediation_template": "Think of the number line! Adding a negative moves LEFT. Adding a positive moves RIGHT. -5 + 3 means start at -5 and move 3 steps right → land on -2."
+    },
+    {
+      "id": "NEG-02",
+      "topic": "negatives",
+      "name": "Ignoring the negative sign",
+      "description": "Treating negative numbers as positive or ignoring the negative sign entirely.",
+      "evidence_patterns": ["ignored the minus", "treated as positive", "forgot negative"],
+      "remediation_template": "The negative sign is crucial! It tells you which side of zero you're on. Always write and track the negative signs carefully throughout your calculation."
+    },
+    {
+      "id": "NEG-03",
+      "topic": "negatives",
+      "name": "Double negative confusion",
+      "description": "Not understanding that subtracting a negative is the same as adding.",
+      "evidence_patterns": ["minus minus", "two negatives", "--"],
+      "remediation_template": "Subtracting a negative = adding a positive! Think: 5 - (-3) = 5 + 3 = 8. The two negatives 'cancel out' and become a plus."
+    },
+    {
+      "id": "NEG-04",
+      "topic": "negatives",
+      "name": "Subtraction as 'making smaller'",
+      "description": "Thinking subtraction always makes numbers smaller, even with negatives.",
+      "evidence_patterns": ["should be smaller", "subtraction makes less"],
+      "remediation_template": "Subtracting moves LEFT on the number line. Starting at -4 and subtracting 6 moves 6 steps left: -4 → -10. With negatives, you can get 'more negative' (smaller)."
+    },
+    {
+      "id": "NEG-05",
+      "topic": "negatives",
+      "name": "Multiplication sign rules",
+      "description": "Not applying correct sign rules when multiplying negatives.",
+      "evidence_patterns": ["negative times negative", "wrong sign", "should be negative", "should be positive"],
+      "remediation_template": "Sign rules for multiplication: Positive × Positive = Positive. Negative × Negative = Positive. Positive × Negative = Negative. Count the negatives - even count = positive result!"
+    },
+    {
+      "id": "NEG-06",
+      "topic": "negatives",
+      "name": "Magnitude vs sign error",
+      "description": "Getting the correct magnitude but wrong sign, or vice versa.",
+      "evidence_patterns": ["right number wrong sign", "12 not -12", "-12 not 12"],
+      "remediation_template": "Calculate the magnitude (the number) first, THEN determine the sign. For (-3) × (-4): magnitude is 3 × 4 = 12. Sign: negative × negative = positive. Answer: +12."
+    },
+    {
+      "id": "LIN-01",
+      "topic": "linear-equations",
+      "name": "Inverse operation error",
+      "description": "Using the wrong inverse operation (adding instead of subtracting, etc.).",
+      "evidence_patterns": ["added instead", "subtracted instead", "wrong operation"],
+      "remediation_template": "Use the OPPOSITE operation to isolate x. If the equation has +5, subtract 5 from both sides. If it has ×3, divide both sides by 3. Undo what's being done to x!"
+    },
+    {
+      "id": "LIN-02",
+      "topic": "linear-equations",
+      "name": "One-sided operation",
+      "description": "Performing the operation on only one side of the equation.",
+      "evidence_patterns": ["only changed one side", "forgot the other side", "didn't balance"],
+      "remediation_template": "An equation is like a balance scale - whatever you do to one side, you MUST do to the other! If you subtract 5 from the left, subtract 5 from the right too."
+    },
+    {
+      "id": "LIN-03",
+      "topic": "linear-equations",
+      "name": "Order of operations confusion",
+      "description": "Not following correct order when solving multi-step equations.",
+      "evidence_patterns": ["divided first", "wrong order", "should have subtracted first"],
+      "remediation_template": "For two-step equations: First undo addition/subtraction, THEN undo multiplication/division. Work 'outward' from the variable. 2x + 4 = 10 → subtract 4 first → 2x = 6 → then divide by 2."
+    },
+    {
+      "id": "LIN-04",
+      "topic": "linear-equations",
+      "name": "Coefficient confusion",
+      "description": "Not properly handling the coefficient when isolating the variable.",
+      "evidence_patterns": ["forgot to divide", "multiplied instead of divided", "left the 3 there"],
+      "remediation_template": "The coefficient is the number multiplied by x. To remove it, divide BOTH sides by that number. 3x = 15 → divide both sides by 3 → x = 5."
+    },
+    {
+      "id": "LIN-05",
+      "topic": "linear-equations",
+      "name": "Arithmetic error in solving",
+      "description": "Making basic arithmetic mistakes while solving correctly set up equations.",
+      "evidence_patterns": ["calculation error", "math mistake", "added wrong"],
+      "remediation_template": "Your method is right! Just double-check your arithmetic. Work slowly and verify each step. Try plugging your answer back into the original equation to check."
+    }
+  ]
+}

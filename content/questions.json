@@ -1,0 +1,154 @@
+{
+  "fractions": [
+    {
+      "id": "frac-001",
+      "topic": "fractions",
+      "prompt": "Calculate: 1/4 + 1/2",
+      "answer_format": "short_text",
+      "correct_answer": "3/4",
+      "candidate_misconception_ids": ["FRAC-01", "FRAC-02", "FRAC-03"]
+    },
+    {
+      "id": "frac-002",
+      "topic": "fractions",
+      "prompt": "Calculate: 2/3 - 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": ["FRAC-01", "FRAC-02", "FRAC-04"]
+    },
+    {
+      "id": "frac-003",
+      "topic": "fractions",
+      "prompt": "Which fraction is equivalent to 2/4?",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": ["FRAC-05", "FRAC-06"]
+    },
+    {
+      "id": "frac-004",
+      "topic": "fractions",
+      "prompt": "Calculate: 3/5 + 1/5",
+      "answer_format": "short_text",
+      "correct_answer": "4/5",
+      "candidate_misconception_ids": ["FRAC-01", "FRAC-03"]
+    },
+    {
+      "id": "frac-005",
+      "topic": "fractions",
+      "prompt": "Calculate: 5/6 - 1/3",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": ["FRAC-01", "FRAC-02", "FRAC-04"]
+    }
+  ],
+  "negatives": [
+    {
+      "id": "neg-001",
+      "topic": "negatives",
+      "prompt": "Calculate: -5 + 3",
+      "answer_format": "short_text",
+      "correct_answer": "-2",
+      "candidate_misconception_ids": ["NEG-01", "NEG-02"]
+    },
+    {
+      "id": "neg-002",
+      "topic": "negatives",
+      "prompt": "Calculate: -4 - 6",
+      "answer_format": "short_text",
+      "correct_answer": "-10",
+      "candidate_misconception_ids": ["NEG-01", "NEG-03", "NEG-04"]
+    },
+    {
+      "id": "neg-003",
+      "topic": "negatives",
+      "prompt": "Calculate: (-3) × (-4)",
+      "answer_format": "short_text",
+      "correct_answer": "12",
+      "candidate_misconception_ids": ["NEG-05", "NEG-06"]
+    },
+    {
+      "id": "neg-004",
+      "topic": "negatives",
+      "prompt": "Calculate: 7 + (-9)",
+      "answer_format": "short_text",
+      "correct_answer": "-2",
+      "candidate_misconception_ids": ["NEG-01", "NEG-02"]
+    },
+    {
+      "id": "neg-005",
+      "topic": "negatives",
+      "prompt": "Calculate: (-2) × 5",
+      "answer_format": "short_text",
+      "correct_answer": "-10",
+      "candidate_misconception_ids": ["NEG-05", "NEG-06"]
+    }
+  ],
+  "linear-equations": [
+    {
+      "id": "lin-001",
+      "topic": "linear-equations",
+      "prompt": "Solve for x: x + 5 = 12",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": ["LIN-01", "LIN-02"]
+    },
+    {
+      "id": "lin-002",
+      "topic": "linear-equations",
+      "prompt": "Solve for x: 3x = 15",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": ["LIN-03", "LIN-04"]
+    },
+    {
+      "id": "lin-003",
+      "topic": "linear-equations",
+      "prompt": "Solve for x: 2x + 4 = 10",
+      "answer_format": "short_text",
+      "correct_answer": "3",
+      "candidate_misconception_ids": ["LIN-01", "LIN-03", "LIN-05"]
+    },
+    {
+      "id": "lin-004",
+      "topic": "linear-equations",
+      "prompt": "Solve for x: x - 3 = 8",
+      "answer_format": "short_text",
+      "correct_answer": "11",
+      "candidate_misconception_ids": ["LIN-01", "LIN-02"]
+    },
+    {
+      "id": "lin-005",
+      "topic": "linear-equations",
+      "prompt": "Solve for x: 4x - 2 = 14",
+      "answer_format": "short_text",
+      "correct_answer": "4",
+      "candidate_misconception_ids": ["LIN-01", "LIN-03", "LIN-05"]
+    }
+  ],
+  "mixed-review": [
+    {
+      "id": "mix-001",
+      "topic": "fractions",
+      "prompt": "Calculate: 1/3 + 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": ["FRAC-01", "FRAC-02"]
+    },
+    {
+      "id": "mix-002",
+      "topic": "negatives",
+      "prompt": "Calculate: -8 + 3",
+      "answer_format": "short_text",
+      "correct_answer": "-5",
+      "candidate_misconception_ids": ["NEG-01", "NEG-02"]
+    },
+    {
+      "id": "mix-003",
+      "topic": "linear-equations",
+      "prompt": "Solve for x: 2x = 8",
+      "answer_format": "short_text",
+      "correct_answer": "4",
+      "candidate_misconception_ids": ["LIN-03", "LIN-04"]
+    }
+  ]
+}

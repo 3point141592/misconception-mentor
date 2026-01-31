@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper-line: #e0e7ef;
+  --paper-line-dark: #c5d1de;
+}
+
+body {
+  background-color: #f8f9fa;
+  background-image: 
+    linear-gradient(to right, var(--paper-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--paper-line) 1px, transparent 1px);
+  background-size: 24px 24px;
+  min-height: 100vh;
+}
+
+/* Highlighter effect for active elements */
+.highlighter {
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    #fff176 50%,
+    #fff176 100%
+  );
+  background-size: 100% 200%;
+  background-position: 0 100%;
+  transition: background-position 0.2s ease;
+}
+
+.highlighter:hover,
+.highlighter.active {
+  background-position: 0 0;
+}
+
+/* Smooth page transitions */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}

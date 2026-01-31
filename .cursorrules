@@ -1,0 +1,10 @@
+Hard rules for this repo:
+- Implement ONLY the single chunk the user requests.
+- After each chunk, STOP and output:
+  1) Acceptance tests to run
+  2) Exact terminal commands
+  3) What success looks like
+- Do NOT implement future chunks.
+- Keep changes minimal and demo-first.
+- Never put secrets in code. Read from .env.local only.
+- All AI endpoints must be server-side (api routes). Never call OpenAI from the browser.
