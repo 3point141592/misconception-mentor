@@ -1,16 +1,111 @@
 {
+  "topic_resources": {
+    "fractions": [
+      { "title": "Fractions Basics - Khan Academy", "url": "https://www.khanacademy.org/math/arithmetic/fraction-arithmetic", "type": "video" },
+      { "title": "Adding Fractions Guide", "url": "https://www.mathsisfun.com/fractions_addition.html", "type": "article" },
+      { "title": "Fraction Practice Problems", "url": "https://www.ixl.com/math/grade-5/add-and-subtract-fractions", "type": "practice" }
+    ],
+    "negatives": [
+      { "title": "Negative Numbers - Khan Academy", "url": "https://www.khanacademy.org/math/arithmetic/arith-review-negative-numbers", "type": "video" },
+      { "title": "Understanding Negative Numbers", "url": "https://www.mathsisfun.com/numbers/negative-numbers.html", "type": "article" },
+      { "title": "Integer Operations Practice", "url": "https://www.ixl.com/math/grade-6/add-and-subtract-integers", "type": "practice" }
+    ],
+    "linear-equations": [
+      { "title": "Solving Equations - Khan Academy", "url": "https://www.khanacademy.org/math/algebra-basics/alg-basics-linear-equations-and-inequalities", "type": "video" },
+      { "title": "Solving Linear Equations", "url": "https://www.mathsisfun.com/algebra/linear-equations.html", "type": "article" },
+      { "title": "Equation Solving Practice", "url": "https://www.ixl.com/math/algebra-1/solve-one-step-linear-equations", "type": "practice" }
+    ]
+  },
   "misconceptions": [
+    {
+      "id": "REVIEW:extra_digit",
+      "topic": "review_error",
+      "category": "review_error",
+      "name": "Extra digit",
+      "description": "Typed an extra digit (e.g., 111 instead of 11).",
+      "evidence_patterns": ["extra digit", "added digit"],
+      "remediation_template": "Double-check your final answer before submitting. Count the digits carefully."
+    },
+    {
+      "id": "REVIEW:missing_digit",
+      "topic": "review_error",
+      "category": "review_error",
+      "name": "Missing digit",
+      "description": "Missed a digit in the answer (e.g., 1 instead of 11).",
+      "evidence_patterns": ["missing digit", "forgot digit"],
+      "remediation_template": "Double-check your final answer before submitting. Make sure you copied all the digits."
+    },
+    {
+      "id": "REVIEW:sign_slip",
+      "topic": "review_error",
+      "category": "review_error",
+      "name": "Sign slip",
+      "description": "Wrong sign on the answer (e.g., -11 instead of 11).",
+      "evidence_patterns": ["wrong sign", "sign error", "positive vs negative"],
+      "remediation_template": "Check the sign of your answer. Is it supposed to be positive or negative?"
+    },
+    {
+      "id": "REVIEW:transposed_digits",
+      "topic": "review_error",
+      "category": "review_error",
+      "name": "Transposed digits",
+      "description": "Swapped the order of digits (e.g., 43 instead of 34).",
+      "evidence_patterns": ["swapped digits", "transposed", "reversed"],
+      "remediation_template": "Double-check the order of your digits before submitting."
+    },
+    {
+      "id": "REVIEW:extra_zero",
+      "topic": "review_error",
+      "category": "review_error",
+      "name": "Extra zero",
+      "description": "Added an extra zero (e.g., 100 instead of 10).",
+      "evidence_patterns": ["extra zero", "added zero"],
+      "remediation_template": "Watch out for place value! Count the zeros carefully."
+    },
+    {
+      "id": "REVIEW:decimal_slip",
+      "topic": "review_error",
+      "category": "review_error",
+      "name": "Decimal placement",
+      "description": "Decimal point in wrong position (e.g., 1.5 vs 15).",
+      "evidence_patterns": ["decimal error", "decimal point"],
+      "remediation_template": "Check your decimal point placement carefully."
+    },
+    {
+      "id": "REVIEW:arithmetic_slip",
+      "topic": "review_error",
+      "category": "review_error",
+      "name": "Arithmetic slip",
+      "description": "Small arithmetic error resulting in a close but incorrect answer.",
+      "evidence_patterns": ["arithmetic error", "calculation mistake"],
+      "remediation_template": "Double-check your arithmetic. Small errors can happen when working quickly."
+    },
+    {
+      "id": "REVIEW:format_typo",
+      "topic": "review_error",
+      "category": "review_error",
+      "name": "Format typo",
+      "description": "Malformed answer format (e.g., '5/', '/5', '3//4', incomplete fraction or number).",
+      "evidence_patterns": ["incomplete answer", "malformed", "format error", "typo"],
+      "remediation_template": "Looks like a typo or format slip. Make sure your answer is complete - for fractions, use format like '3/4', for integers just the number."
+    },
     {
       "id": "FRAC-01",
       "topic": "fractions",
+      "category": "misconception",
       "name": "Adding denominators",
       "description": "Adding the denominators when adding fractions instead of finding a common denominator.",
       "evidence_patterns": ["added the bottom numbers", "added denominators", "4+2=6", "3+6=9"],
-      "remediation_template": "When adding fractions, you need a COMMON denominator first. Only the numerators (top numbers) get added. The denominator stays the same once both fractions share it."
+      "remediation_template": "When adding fractions, you need a COMMON denominator first. Only the numerators (top numbers) get added. The denominator stays the same once both fractions share it.",
+      "resources": [
+        { "title": "Why You Need Common Denominators", "url": "https://www.khanacademy.org/math/cc-fifth-grade-math/ccs-5th-add-subtract-fractions", "type": "video" },
+        { "title": "Adding Fractions Visual Guide", "url": "https://www.mathsisfun.com/fractions_addition.html", "type": "article" }
+      ]
     },
     {
       "id": "FRAC-02",
       "topic": "fractions",
+      "category": "misconception",
       "name": "Forgetting to convert",
       "description": "Not converting fractions to have the same denominator before adding or subtracting.",
       "evidence_patterns": ["just added", "didn't change", "kept the same"],
@@ -19,14 +114,19 @@
     {
       "id": "FRAC-03",
       "topic": "fractions",
+      "category": "misconception",
       "name": "Adding numerators AND denominators",
       "description": "Adding both the top and bottom numbers separately when adding fractions.",
       "evidence_patterns": ["added top and bottom", "1+1=2 and 4+2=6", "added everything"],
-      "remediation_template": "Only numerators get added! The denominator represents the size of each piece. You can't add pieces of different sizes directly - first make them the same size (common denominator)."
+      "remediation_template": "Only numerators get added! The denominator represents the size of each piece. You can't add pieces of different sizes directly - first make them the same size (common denominator).",
+      "resources": [
+        { "title": "Fractions: Why Denominators Matter", "url": "https://www.khanacademy.org/math/arithmetic/fraction-arithmetic/arith-review-add-sub-fractions/v/adding-fractions-with-unlike-denominators-introduction", "type": "video" }
+      ]
     },
     {
       "id": "FRAC-04",
       "topic": "fractions",
+      "category": "misconception",
       "name": "Subtraction direction error",
       "description": "Subtracting in the wrong order or confusing which number to subtract from which.",
       "evidence_patterns": ["subtracted wrong way", "flipped", "backwards"],
@@ -35,6 +135,7 @@
     {
       "id": "FRAC-05",
       "topic": "fractions",
+      "category": "misconception",
       "name": "Equivalent fraction confusion",
       "description": "Not understanding that equivalent fractions represent the same value.",
       "evidence_patterns": ["different numbers", "not the same", "2/4 is bigger"],
@@ -43,22 +144,42 @@
     {
       "id": "FRAC-06",
       "topic": "fractions",
+      "category": "misconception",
       "name": "Simplification error",
       "description": "Incorrectly simplifying fractions or not recognizing when to simplify.",
       "evidence_patterns": ["didn't simplify", "wrong simplification", "divided wrong"],
       "remediation_template": "To simplify, divide BOTH the numerator and denominator by the same number (their GCF). 2/4 ÷ 2/2 = 1/2. Both parts must be divided by the same amount!"
     },
     {
+      "id": "FRAC-SWAP",
+      "topic": "fractions",
+      "category": "misconception",
+      "name": "Swapped numerator and denominator",
+      "description": "Wrote the fraction upside down, swapping the numerator (top) and denominator (bottom).",
+      "evidence_patterns": ["flipped", "upside down", "swapped", "reciprocal", "inverted"],
+      "remediation_template": "The numerator (top) tells you HOW MANY parts you have. The denominator (bottom) tells you the SIZE of each part (how many equal pieces the whole is divided into). 3/4 means 3 pieces out of 4 total - make sure the part you have goes on TOP!",
+      "resources": [
+        { "title": "Numerator vs Denominator", "url": "https://www.khanacademy.org/math/cc-third-grade-math/intro-to-fractions/intro-to-fractions/v/numerator-and-denominator-of-a-fraction", "type": "video" },
+        { "title": "Understanding Fractions", "url": "https://www.mathsisfun.com/fractions.html", "type": "article" }
+      ]
+    },
+    {
       "id": "NEG-01",
       "topic": "negatives",
+      "category": "misconception",
       "name": "Sign confusion in addition",
       "description": "Confusing when to add vs subtract when dealing with negative numbers.",
       "evidence_patterns": ["got the sign wrong", "positive instead", "negative instead", "confused plus minus"],
-      "remediation_template": "Think of the number line! Adding a negative moves LEFT. Adding a positive moves RIGHT. -5 + 3 means start at -5 and move 3 steps right → land on -2."
+      "remediation_template": "Think of the number line! Adding a negative moves LEFT. Adding a positive moves RIGHT. -5 + 3 means start at -5 and move 3 steps right → land on -2.",
+      "resources": [
+        { "title": "Number Line & Negatives", "url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-negative-number-topic/cc-6th-neg-add-sub/v/adding-negative-numbers", "type": "video" },
+        { "title": "Adding Integers Explained", "url": "https://www.mathsisfun.com/positive-negative-integers.html", "type": "article" }
+      ]
     },
     {
       "id": "NEG-02",
       "topic": "negatives",
+      "category": "misconception",
       "name": "Ignoring the negative sign",
       "description": "Treating negative numbers as positive or ignoring the negative sign entirely.",
       "evidence_patterns": ["ignored the minus", "treated as positive", "forgot negative"],
@@ -67,14 +188,19 @@
     {
       "id": "NEG-03",
       "topic": "negatives",
+      "category": "misconception",
       "name": "Double negative confusion",
       "description": "Not understanding that subtracting a negative is the same as adding.",
       "evidence_patterns": ["minus minus", "two negatives", "--"],
-      "remediation_template": "Subtracting a negative = adding a positive! Think: 5 - (-3) = 5 + 3 = 8. The two negatives 'cancel out' and become a plus."
+      "remediation_template": "Subtracting a negative = adding a positive! Think: 5 - (-3) = 5 + 3 = 8. The two negatives 'cancel out' and become a plus.",
+      "resources": [
+        { "title": "Subtracting Negative Numbers", "url": "https://www.khanacademy.org/math/arithmetic/arith-review-negative-numbers/arith-review-sub-neg-intro/v/adding-and-subtracting-negative-numbers", "type": "video" }
+      ]
     },
     {
       "id": "NEG-04",
       "topic": "negatives",
+      "category": "misconception",
       "name": "Subtraction as 'making smaller'",
       "description": "Thinking subtraction always makes numbers smaller, even with negatives.",
       "evidence_patterns": ["should be smaller", "subtraction makes less"],
@@ -83,6 +209,7 @@
     {
       "id": "NEG-05",
       "topic": "negatives",
+      "category": "misconception",
       "name": "Multiplication sign rules",
       "description": "Not applying correct sign rules when multiplying negatives.",
       "evidence_patterns": ["negative times negative", "wrong sign", "should be negative", "should be positive"],
@@ -91,6 +218,7 @@
     {
       "id": "NEG-06",
       "topic": "negatives",
+      "category": "misconception",
       "name": "Magnitude vs sign error",
       "description": "Getting the correct magnitude but wrong sign, or vice versa.",
       "evidence_patterns": ["right number wrong sign", "12 not -12", "-12 not 12"],
@@ -99,22 +227,32 @@
     {
       "id": "LIN-01",
       "topic": "linear-equations",
+      "category": "misconception",
       "name": "Inverse operation error",
       "description": "Using the wrong inverse operation (adding instead of subtracting, etc.).",
       "evidence_patterns": ["added instead", "subtracted instead", "wrong operation"],
-      "remediation_template": "Use the OPPOSITE operation to isolate x. If the equation has +5, subtract 5 from both sides. If it has ×3, divide both sides by 3. Undo what's being done to x!"
+      "remediation_template": "Use the OPPOSITE operation to isolate x. If the equation has +5, subtract 5 from both sides. If it has ×3, divide both sides by 3. Undo what's being done to x!",
+      "resources": [
+        { "title": "Inverse Operations Explained", "url": "https://www.khanacademy.org/math/algebra/one-variable-linear-equations/alg1-one-step-add-sub-equations/v/simple-equations", "type": "video" },
+        { "title": "Solving Equations Step-by-Step", "url": "https://www.mathsisfun.com/algebra/linear-equations.html", "type": "article" }
+      ]
     },
     {
       "id": "LIN-02",
       "topic": "linear-equations",
+      "category": "misconception",
       "name": "One-sided operation",
       "description": "Performing the operation on only one side of the equation.",
       "evidence_patterns": ["only changed one side", "forgot the other side", "didn't balance"],
-      "remediation_template": "An equation is like a balance scale - whatever you do to one side, you MUST do to the other! If you subtract 5 from the left, subtract 5 from the right too."
+      "remediation_template": "An equation is like a balance scale - whatever you do to one side, you MUST do to the other! If you subtract 5 from the left, subtract 5 from the right too.",
+      "resources": [
+        { "title": "Balancing Equations Visual", "url": "https://www.khanacademy.org/math/algebra/one-variable-linear-equations/alg1-one-step-add-sub-equations/v/why-we-do-the-same-thing-to-both-sides-simple-equations", "type": "video" }
+      ]
     },
     {
       "id": "LIN-03",
       "topic": "linear-equations",
+      "category": "misconception",
       "name": "Order of operations confusion",
       "description": "Not following correct order when solving multi-step equations.",
       "evidence_patterns": ["divided first", "wrong order", "should have subtracted first"],
@@ -123,6 +261,7 @@
     {
       "id": "LIN-04",
       "topic": "linear-equations",
+      "category": "misconception",
       "name": "Coefficient confusion",
       "description": "Not properly handling the coefficient when isolating the variable.",
       "evidence_patterns": ["forgot to divide", "multiplied instead of divided", "left the 3 there"],
@@ -131,6 +270,7 @@
     {
       "id": "LIN-05",
       "topic": "linear-equations",
+      "category": "misconception",
       "name": "Arithmetic error in solving",
       "description": "Making basic arithmetic mistakes while solving correctly set up equations.",
       "evidence_patterns": ["calculation error", "math mistake", "added wrong"],

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; height: auto;">
+  <!-- Background -->
+  <rect width="320" height="280" fill="#E8F5E9" rx="16"/>
+  
+  <!-- Title -->
+  <text x="160" y="32" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="18" font-weight="bold" fill="#2E7D32">Equivalent Fractions</text>
+  
+  <!-- 1/2 bar -->
+  <text x="30" y="75" font-family="Comic Sans MS, cursive, sans-serif" font-size="16" font-weight="bold" fill="#4A4A4A">1/2</text>
+  <rect x="60" y="55" width="120" height="35" rx="8" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <rect x="180" y="55" width="120" height="35" rx="8" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="2"/>
+  <line x1="180" y1="55" x2="180" y2="90" stroke="#2E7D32" stroke-width="2"/>
+  
+  <!-- 2/4 bar -->
+  <text x="30" y="135" font-family="Comic Sans MS, cursive, sans-serif" font-size="16" font-weight="bold" fill="#4A4A4A">2/4</text>
+  <rect x="60" y="115" width="60" height="35" rx="8" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <rect x="120" y="115" width="60" height="35" rx="8" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <rect x="180" y="115" width="60" height="35" rx="8" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="2"/>
+  <rect x="240" y="115" width="60" height="35" rx="8" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="2"/>
+  <line x1="120" y1="115" x2="120" y2="150" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="180" y1="115" x2="180" y2="150" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="240" y1="115" x2="240" y2="150" stroke="#BDBDBD" stroke-width="2"/>
+  
+  <!-- 3/6 bar -->
+  <text x="30" y="195" font-family="Comic Sans MS, cursive, sans-serif" font-size="16" font-weight="bold" fill="#4A4A4A">3/6</text>
+  <rect x="60" y="175" width="40" height="35" rx="8" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <rect x="100" y="175" width="40" height="35" rx="8" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <rect x="140" y="175" width="40" height="35" rx="8" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <rect x="180" y="175" width="40" height="35" rx="8" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="2"/>
+  <rect x="220" y="175" width="40" height="35" rx="8" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="2"/>
+  <rect x="260" y="175" width="40" height="35" rx="8" fill="#E0E0E0" stroke="#BDBDBD" stroke-width="2"/>
+  <line x1="100" y1="175" x2="100" y2="210" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="140" y1="175" x2="140" y2="210" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="180" y1="175" x2="180" y2="210" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="220" y1="175" x2="220" y2="210" stroke="#BDBDBD" stroke-width="2"/>
+  <line x1="260" y1="175" x2="260" y2="210" stroke="#BDBDBD" stroke-width="2"/>
+  
+  <!-- Alignment line showing equal amounts -->
+  <line x1="180" y1="50" x2="180" y2="220" stroke="#FF5722" stroke-width="3" stroke-dasharray="8,4"/>
+  
+  <!-- Equal sign badge -->
+  <rect x="100" y="235" width="120" height="35" rx="18" fill="#FF5722"/>
+  <text x="160" y="260" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="16" font-weight="bold" fill="white">All equal 1/2!</text>
+</svg>

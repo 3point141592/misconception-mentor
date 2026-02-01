@@ -49,3 +49,141 @@ body {
 .animate-fade-in {
   animation: fadeIn 0.3s ease-out forwards;
 }
+
+/* ============================================
+   Teacher Avatar Animations
+   ============================================ */
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes walk {
+  0%, 100% { transform: translateX(0) rotate(0deg); }
+  25% { transform: translateX(2px) rotate(-2deg); }
+  75% { transform: translateX(-2px) rotate(2deg); }
+}
+
+@keyframes wave-left {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-20deg); }
+}
+
+@keyframes wave-right {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(20deg); }
+}
+
+@keyframes beak {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(0.7); }
+}
+
+@keyframes point {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-5deg); }
+}
+
+.animate-bob {
+  animation: bob 2s ease-in-out infinite;
+}
+
+.animate-walk {
+  animation: walk 0.4s ease-in-out infinite;
+}
+
+.animate-wave-left {
+  animation: wave-left 0.3s ease-in-out infinite;
+  transform-origin: right center;
+}
+
+.animate-wave-right {
+  animation: wave-right 0.3s ease-in-out infinite;
+  transform-origin: left center;
+}
+
+.animate-beak {
+  animation: beak 0.2s ease-in-out infinite;
+  transform-origin: center top;
+}
+
+.animate-point {
+  animation: point 1s ease-in-out infinite;
+  transform-origin: left bottom;
+}
+
+/* ============================================
+   Narration Block Highlight Animation
+   ============================================ */
+
+@keyframes narration-pulse {
+  0%, 100% { 
+    box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.4);
+  }
+  50% { 
+    box-shadow: 0 0 0 4px rgba(250, 204, 21, 0.2);
+  }
+}
+
+.narration-active {
+  animation: narration-pulse 1.5s ease-in-out infinite;
+}
+
+/* Ensure narration-skip elements never get highlighted */
+[data-narration-skip="true"] {
+  pointer-events: auto;
+}
+
+/* ============================================
+   Prevent Text Selection on UI Chrome
+   ============================================ */
+
+/* Buttons, nav, tabs, chips should not be selectable */
+button,
+[role="button"],
+nav,
+header,
+[data-narration-skip="true"],
+.tab-navigation,
+.badge,
+.chip {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Links that are navigation (not content links) */
+a[href^="/learn"],
+a[href^="/practice"],
+a[href="/"],
+.back-link {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Keep normal selection for actual content */
+p,
+.prose,
+.lesson-content,
+textarea,
+input[type="text"],
+.selectable {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* Narration block highlight - uses ring/glow ONLY, NO background color change */
+/* This ensures white text on colored backgrounds remains readable */
+.narration-highlight {
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 0 4px rgba(250, 204, 21, 0.8), 0 0 20px rgba(250, 204, 21, 0.5);
+  border-radius: 8px;
+  /* DO NOT use background-color - it makes white text unreadable */
+}

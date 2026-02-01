@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter, Patrick_Hand } from "next/font/google";
 import { AuthProvider } from "@/components/AuthProvider";
+import { DelightProvider } from "@/components/DelightProvider";
+import { AvatarProvider } from "@/components/AvatarProvider";
+import { NarrationProvider } from "@/components/NarrationBlock";
+import { I18nProvider } from "@/components/I18nProvider";
 import "./globals.css";
 
 const inter = Inter({
@@ -27,9 +31,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${patrickHand.variable} font-sans antialiased`}>
-        <AuthProvider>
-          {children}
-        </AuthProvider>
+        <I18nProvider>
+          <AuthProvider>
+            <DelightProvider>
+              <NarrationProvider>
+                <AvatarProvider>
+                  {children}
+                </AvatarProvider>
+              </NarrationProvider>
+            </DelightProvider>
+          </AuthProvider>
+        </I18nProvider>
       </body>
     </html>
   );

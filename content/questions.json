@@ -3,152 +3,2948 @@
     {
       "id": "frac-001",
       "topic": "fractions",
-      "prompt": "Calculate: 1/4 + 1/2",
+      "difficulty": 1,
+      "prompt": "Calculate (simplify if needed): 1/4 + 2/4",
       "answer_format": "short_text",
       "correct_answer": "3/4",
-      "candidate_misconception_ids": ["FRAC-01", "FRAC-02", "FRAC-03"]
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_same_denom"
     },
     {
       "id": "frac-002",
       "topic": "fractions",
-      "prompt": "Calculate: 2/3 - 1/6",
+      "difficulty": 1,
+      "prompt": "Calculate (simplify if needed): 2/5 + 1/5",
       "answer_format": "short_text",
-      "correct_answer": "1/2",
-      "candidate_misconception_ids": ["FRAC-01", "FRAC-02", "FRAC-04"]
+      "correct_answer": "3/5",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_same_denom"
     },
     {
       "id": "frac-003",
       "topic": "fractions",
-      "prompt": "Which fraction is equivalent to 2/4?",
+      "difficulty": 1,
+      "prompt": "Calculate (simplify if needed): 1/6 + 3/6",
       "answer_format": "short_text",
-      "correct_answer": "1/2",
-      "candidate_misconception_ids": ["FRAC-05", "FRAC-06"]
+      "correct_answer": "2/3",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_same_denom"
     },
     {
       "id": "frac-004",
       "topic": "fractions",
-      "prompt": "Calculate: 3/5 + 1/5",
+      "difficulty": 1,
+      "prompt": "Calculate (simplify if needed): 3/8 + 1/8",
       "answer_format": "short_text",
-      "correct_answer": "4/5",
-      "candidate_misconception_ids": ["FRAC-01", "FRAC-03"]
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_same_denom"
     },
     {
       "id": "frac-005",
       "topic": "fractions",
-      "prompt": "Calculate: 5/6 - 1/3",
+      "difficulty": 1,
+      "prompt": "Calculate (simplify if needed): 2/10 + 3/10",
       "answer_format": "short_text",
       "correct_answer": "1/2",
-      "candidate_misconception_ids": ["FRAC-01", "FRAC-02", "FRAC-04"]
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "frac-006",
+      "topic": "fractions",
+      "difficulty": 1,
+      "prompt": "Calculate (simplify if needed): 5/12 + 1/12",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "frac-007",
+      "topic": "fractions",
+      "difficulty": 2,
+      "prompt": "Calculate (simplify if needed): 4/5 - 1/5",
+      "answer_format": "short_text",
+      "correct_answer": "3/5",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "frac-008",
+      "topic": "fractions",
+      "difficulty": 2,
+      "prompt": "Calculate (simplify if needed): 5/6 - 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "2/3",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "frac-009",
+      "topic": "fractions",
+      "difficulty": 2,
+      "prompt": "Calculate (simplify if needed): 7/8 - 3/8",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "frac-010",
+      "topic": "fractions",
+      "difficulty": 2,
+      "prompt": "Calculate (simplify if needed): 8/9 - 2/9",
+      "answer_format": "short_text",
+      "correct_answer": "2/3",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "frac-011",
+      "topic": "fractions",
+      "difficulty": 2,
+      "prompt": "Calculate (simplify if needed): 9/10 - 3/10",
+      "answer_format": "short_text",
+      "correct_answer": "3/5",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "frac-012",
+      "topic": "fractions",
+      "difficulty": 2,
+      "prompt": "Calculate (simplify if needed): 11/12 - 5/12",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "frac-013",
+      "topic": "fractions",
+      "difficulty": 3,
+      "prompt": "Calculate (simplify if needed): 1/2 + 1/4",
+      "answer_format": "short_text",
+      "correct_answer": "3/4",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-014",
+      "topic": "fractions",
+      "difficulty": 3,
+      "prompt": "Calculate (simplify if needed): 3/4 - 1/2",
+      "answer_format": "short_text",
+      "correct_answer": "1/4",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-015",
+      "topic": "fractions",
+      "difficulty": 3,
+      "prompt": "Calculate (simplify if needed): 2/3 + 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "5/6",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-016",
+      "topic": "fractions",
+      "difficulty": 3,
+      "prompt": "Calculate (simplify if needed): 5/6 - 1/3",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-017",
+      "topic": "fractions",
+      "difficulty": 3,
+      "prompt": "Calculate (simplify if needed): 1/5 + 1/10",
+      "answer_format": "short_text",
+      "correct_answer": "3/10",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-018",
+      "topic": "fractions",
+      "difficulty": 3,
+      "prompt": "Calculate (simplify if needed): 7/10 - 1/5",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-019",
+      "topic": "fractions",
+      "difficulty": 4,
+      "prompt": "Calculate (simplify if needed): 1/3 + 1/4",
+      "answer_format": "short_text",
+      "correct_answer": "7/12",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-020",
+      "topic": "fractions",
+      "difficulty": 4,
+      "prompt": "Calculate (simplify if needed): 2/5 + 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "17/30",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-021",
+      "topic": "fractions",
+      "difficulty": 4,
+      "prompt": "Calculate (simplify if needed): 3/7 + 2/7",
+      "answer_format": "short_text",
+      "correct_answer": "5/7",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "frac-022",
+      "topic": "fractions",
+      "difficulty": 4,
+      "prompt": "Calculate (simplify if needed): 2/9 + 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "7/18",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-023",
+      "topic": "fractions",
+      "difficulty": 4,
+      "prompt": "Calculate (simplify if needed): 5/8 + 1/12",
+      "answer_format": "short_text",
+      "correct_answer": "17/24",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-024",
+      "topic": "fractions",
+      "difficulty": 4,
+      "prompt": "Calculate (simplify if needed): 3/10 + 1/15",
+      "answer_format": "short_text",
+      "correct_answer": "11/30",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-025",
+      "topic": "fractions",
+      "difficulty": 5,
+      "prompt": "Calculate (simplify if needed): 5/6 - 1/4",
+      "answer_format": "short_text",
+      "correct_answer": "7/12",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-026",
+      "topic": "fractions",
+      "difficulty": 5,
+      "prompt": "Calculate (simplify if needed): 7/8 - 1/3",
+      "answer_format": "short_text",
+      "correct_answer": "13/24",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-027",
+      "topic": "fractions",
+      "difficulty": 5,
+      "prompt": "Calculate (simplify if needed): 11/12 - 2/5",
+      "answer_format": "short_text",
+      "correct_answer": "31/60",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-028",
+      "topic": "fractions",
+      "difficulty": 5,
+      "prompt": "Calculate (simplify if needed): 3/4 - 2/9",
+      "answer_format": "short_text",
+      "correct_answer": "19/36",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-029",
+      "topic": "fractions",
+      "difficulty": 5,
+      "prompt": "Calculate (simplify if needed): 5/7 - 1/14",
+      "answer_format": "short_text",
+      "correct_answer": "9/14",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-030",
+      "topic": "fractions",
+      "difficulty": 5,
+      "prompt": "Calculate (simplify if needed): 9/10 - 1/8",
+      "answer_format": "short_text",
+      "correct_answer": "31/40",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "frac-031",
+      "topic": "fractions",
+      "difficulty": 6,
+      "prompt": "Calculate (simplify if needed): 2/6 + 1/3",
+      "answer_format": "short_text",
+      "correct_answer": "2/3",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-032",
+      "topic": "fractions",
+      "difficulty": 6,
+      "prompt": "Calculate (simplify if needed): 3/9 + 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-033",
+      "topic": "fractions",
+      "difficulty": 6,
+      "prompt": "Calculate (simplify if needed): 4/10 - 1/5",
+      "answer_format": "short_text",
+      "correct_answer": "1/5",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-034",
+      "topic": "fractions",
+      "difficulty": 6,
+      "prompt": "Calculate (simplify if needed): 6/12 + 1/4",
+      "answer_format": "short_text",
+      "correct_answer": "3/4",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-035",
+      "topic": "fractions",
+      "difficulty": 6,
+      "prompt": "Calculate (simplify if needed): 5/15 + 1/3",
+      "answer_format": "short_text",
+      "correct_answer": "2/3",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-036",
+      "topic": "fractions",
+      "difficulty": 6,
+      "prompt": "Calculate (simplify if needed): 7/14 - 1/7",
+      "answer_format": "short_text",
+      "correct_answer": "5/14",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-037",
+      "topic": "fractions",
+      "difficulty": 7,
+      "prompt": "Calculate (simplify if needed): 7/4 + 2/3",
+      "answer_format": "short_text",
+      "correct_answer": "29/12",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-038",
+      "topic": "fractions",
+      "difficulty": 7,
+      "prompt": "Calculate (simplify if needed): 9/5 - 1/2",
+      "answer_format": "short_text",
+      "correct_answer": "13/10",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-039",
+      "topic": "fractions",
+      "difficulty": 7,
+      "prompt": "Calculate (simplify if needed): 5/3 + 3/8",
+      "answer_format": "short_text",
+      "correct_answer": "49/24",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-040",
+      "topic": "fractions",
+      "difficulty": 7,
+      "prompt": "Calculate (simplify if needed): 11/6 - 1/4",
+      "answer_format": "short_text",
+      "correct_answer": "19/12",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-041",
+      "topic": "fractions",
+      "difficulty": 7,
+      "prompt": "Calculate (simplify if needed): 13/8 + 5/12",
+      "answer_format": "short_text",
+      "correct_answer": "49/24",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-042",
+      "topic": "fractions",
+      "difficulty": 7,
+      "prompt": "Calculate (simplify if needed): 17/10 - 1/5",
+      "answer_format": "short_text",
+      "correct_answer": "3/2",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-043",
+      "topic": "fractions",
+      "difficulty": 8,
+      "prompt": "In a monitoring dashboard, 3/10 of alerts are CPU-related and 1/5 are memory-related. What fraction of alerts are CPU or memory? (simplify)",
+      "answer_format": "short_text",
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-044",
+      "topic": "fractions",
+      "difficulty": 8,
+      "prompt": "A service used 7/8 of its error budget, then saved back 1/4 of a budget by improvements. What fraction of the budget is still used? (simplify)",
+      "answer_format": "short_text",
+      "correct_answer": "5/8",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-045",
+      "topic": "fractions",
+      "difficulty": 8,
+      "prompt": "An SRE team spent 2/3 of their on-call time on incidents and 1/6 on documentation. What fraction of time was spent on these two? (simplify)",
+      "answer_format": "short_text",
+      "correct_answer": "5/6",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-046",
+      "topic": "fractions",
+      "difficulty": 8,
+      "prompt": "A log pipeline drops 1/12 of events due to noise filters, then drops another 1/8 due to rate limits. What fraction is dropped in total? (simplify)",
+      "answer_format": "short_text",
+      "correct_answer": "5/24",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-047",
+      "topic": "fractions",
+      "difficulty": 8,
+      "prompt": "A release window is 3/4 hour. If a deploy takes 1/6 hour, how much time is left? (simplify)",
+      "answer_format": "short_text",
+      "correct_answer": "7/12",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-048",
+      "topic": "fractions",
+      "difficulty": 8,
+      "prompt": "A dashboard shows 5/6 uptime so far. After a short outage, uptime drops by 1/15. What is the new uptime fraction? (simplify)",
+      "answer_format": "short_text",
+      "correct_answer": "23/30",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-049",
+      "topic": "fractions",
+      "difficulty": 9,
+      "prompt": "Simplify the fraction: 18/24",
+      "answer_format": "short_text",
+      "correct_answer": "3/4",
+      "candidate_misconception_ids": [
+        "FRAC-05",
+        "FRAC-06",
+        "FRAC-02"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-050",
+      "topic": "fractions",
+      "difficulty": 9,
+      "prompt": "Simplify the fraction: 42/56",
+      "answer_format": "short_text",
+      "correct_answer": "3/4",
+      "candidate_misconception_ids": [
+        "FRAC-05",
+        "FRAC-06",
+        "FRAC-02"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-051",
+      "topic": "fractions",
+      "difficulty": 9,
+      "prompt": "Write a fraction equivalent to 3/5 with denominator 20 (format like 12/20).",
+      "answer_format": "short_text",
+      "correct_answer": "12/20",
+      "candidate_misconception_ids": [
+        "FRAC-05",
+        "FRAC-06",
+        "FRAC-02"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-052",
+      "topic": "fractions",
+      "difficulty": 9,
+      "prompt": "Write a fraction equivalent to 7/8 with denominator 32 (format like 28/32).",
+      "answer_format": "short_text",
+      "correct_answer": "28/32",
+      "candidate_misconception_ids": [
+        "FRAC-05",
+        "FRAC-06",
+        "FRAC-02"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-053",
+      "topic": "fractions",
+      "difficulty": 9,
+      "prompt": "Is 2/3 equal to 8/12? Answer yes or no.",
+      "answer_format": "short_text",
+      "correct_answer": "yes",
+      "candidate_misconception_ids": [
+        "FRAC-05",
+        "FRAC-06",
+        "FRAC-02"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-054",
+      "topic": "fractions",
+      "difficulty": 9,
+      "prompt": "Simplify the fraction: 45/60",
+      "answer_format": "short_text",
+      "correct_answer": "3/4",
+      "candidate_misconception_ids": [
+        "FRAC-05",
+        "FRAC-06",
+        "FRAC-02"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-055",
+      "topic": "fractions",
+      "difficulty": 10,
+      "prompt": "Compute (simplify): (1/2 + 1/3) - 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "2/3",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-056",
+      "topic": "fractions",
+      "difficulty": 10,
+      "prompt": "Compute (simplify): (3/4 - 1/8) + 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "19/24",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-057",
+      "topic": "fractions",
+      "difficulty": 10,
+      "prompt": "Compute (simplify): 1/5 + (2/3 - 1/6)",
+      "answer_format": "short_text",
+      "correct_answer": "7/10",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-058",
+      "topic": "fractions",
+      "difficulty": 10,
+      "prompt": "Compute (simplify): (5/6 + 1/4) - 1/3",
+      "answer_format": "short_text",
+      "correct_answer": "3/4",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-059",
+      "topic": "fractions",
+      "difficulty": 10,
+      "prompt": "Compute (simplify): (7/10 - 1/5) + 1/4",
+      "answer_format": "short_text",
+      "correct_answer": "3/4",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "frac-060",
+      "topic": "fractions",
+      "difficulty": 10,
+      "prompt": "Compute (simplify): (2/9 + 1/3) - 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "7/18",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
     }
   ],
   "negatives": [
     {
       "id": "neg-001",
       "topic": "negatives",
-      "prompt": "Calculate: -5 + 3",
+      "difficulty": 1,
+      "prompt": "Calculate: 7 + (-3)",
       "answer_format": "short_text",
-      "correct_answer": "-2",
-      "candidate_misconception_ids": ["NEG-01", "NEG-02"]
+      "correct_answer": "4",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
     },
     {
       "id": "neg-002",
       "topic": "negatives",
-      "prompt": "Calculate: -4 - 6",
+      "difficulty": 1,
+      "prompt": "Calculate: 12 + (-5)",
       "answer_format": "short_text",
-      "correct_answer": "-10",
-      "candidate_misconception_ids": ["NEG-01", "NEG-03", "NEG-04"]
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
     },
     {
       "id": "neg-003",
       "topic": "negatives",
-      "prompt": "Calculate: (-3) × (-4)",
+      "difficulty": 1,
+      "prompt": "Calculate: 9 + (-2)",
       "answer_format": "short_text",
-      "correct_answer": "12",
-      "candidate_misconception_ids": ["NEG-05", "NEG-06"]
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
     },
     {
       "id": "neg-004",
       "topic": "negatives",
-      "prompt": "Calculate: 7 + (-9)",
+      "difficulty": 1,
+      "prompt": "Calculate: 15 + (-7)",
       "answer_format": "short_text",
-      "correct_answer": "-2",
-      "candidate_misconception_ids": ["NEG-01", "NEG-02"]
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
     },
     {
       "id": "neg-005",
       "topic": "negatives",
-      "prompt": "Calculate: (-2) × 5",
+      "difficulty": 1,
+      "prompt": "Calculate: 6 + (-1)",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-006",
+      "topic": "negatives",
+      "difficulty": 1,
+      "prompt": "Calculate: 20 + (-8)",
+      "answer_format": "short_text",
+      "correct_answer": "12",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-007",
+      "topic": "negatives",
+      "difficulty": 2,
+      "prompt": "Calculate: -4 + (-6)",
       "answer_format": "short_text",
       "correct_answer": "-10",
-      "candidate_misconception_ids": ["NEG-05", "NEG-06"]
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-008",
+      "topic": "negatives",
+      "difficulty": 2,
+      "prompt": "Calculate: -8 + (3)",
+      "answer_format": "short_text",
+      "correct_answer": "-5",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-009",
+      "topic": "negatives",
+      "difficulty": 2,
+      "prompt": "Calculate: -12 + (5)",
+      "answer_format": "short_text",
+      "correct_answer": "-7",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-010",
+      "topic": "negatives",
+      "difficulty": 2,
+      "prompt": "Calculate: -7 + (-9)",
+      "answer_format": "short_text",
+      "correct_answer": "-16",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-011",
+      "topic": "negatives",
+      "difficulty": 2,
+      "prompt": "Calculate: 2 + (-11)",
+      "answer_format": "short_text",
+      "correct_answer": "-9",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-012",
+      "topic": "negatives",
+      "difficulty": 2,
+      "prompt": "Calculate: -15 + (6)",
+      "answer_format": "short_text",
+      "correct_answer": "-9",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-013",
+      "topic": "negatives",
+      "difficulty": 3,
+      "prompt": "Calculate: 5 - (-3)",
+      "answer_format": "short_text",
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-014",
+      "topic": "negatives",
+      "difficulty": 3,
+      "prompt": "Calculate: 12 - (-8)",
+      "answer_format": "short_text",
+      "correct_answer": "20",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-015",
+      "topic": "negatives",
+      "difficulty": 3,
+      "prompt": "Calculate: -4 - (-6)",
+      "answer_format": "short_text",
+      "correct_answer": "2",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-016",
+      "topic": "negatives",
+      "difficulty": 3,
+      "prompt": "Calculate: 0 - (-7)",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-017",
+      "topic": "negatives",
+      "difficulty": 3,
+      "prompt": "Calculate: 9 - (-10)",
+      "answer_format": "short_text",
+      "correct_answer": "19",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-018",
+      "topic": "negatives",
+      "difficulty": 3,
+      "prompt": "Calculate: -11 - (-2)",
+      "answer_format": "short_text",
+      "correct_answer": "-9",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-019",
+      "topic": "negatives",
+      "difficulty": 4,
+      "prompt": "Calculate: -5 - (7)",
+      "answer_format": "short_text",
+      "correct_answer": "-12",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-020",
+      "topic": "negatives",
+      "difficulty": 4,
+      "prompt": "Calculate: -12 - (4)",
+      "answer_format": "short_text",
+      "correct_answer": "-16",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-021",
+      "topic": "negatives",
+      "difficulty": 4,
+      "prompt": "Calculate: -3 - (9)",
+      "answer_format": "short_text",
+      "correct_answer": "-12",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-022",
+      "topic": "negatives",
+      "difficulty": 4,
+      "prompt": "Calculate: -8 - (-2)",
+      "answer_format": "short_text",
+      "correct_answer": "-6",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-023",
+      "topic": "negatives",
+      "difficulty": 4,
+      "prompt": "Calculate: -14 - (-9)",
+      "answer_format": "short_text",
+      "correct_answer": "-5",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-024",
+      "topic": "negatives",
+      "difficulty": 4,
+      "prompt": "Calculate: -6 - (11)",
+      "answer_format": "short_text",
+      "correct_answer": "-17",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-025",
+      "topic": "negatives",
+      "difficulty": 5,
+      "prompt": "Calculate: -3 * 4",
+      "answer_format": "short_text",
+      "correct_answer": "-12",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-026",
+      "topic": "negatives",
+      "difficulty": 5,
+      "prompt": "Calculate: 6 * -5",
+      "answer_format": "short_text",
+      "correct_answer": "-30",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-027",
+      "topic": "negatives",
+      "difficulty": 5,
+      "prompt": "Calculate: -7 * 2",
+      "answer_format": "short_text",
+      "correct_answer": "-14",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-028",
+      "topic": "negatives",
+      "difficulty": 5,
+      "prompt": "Calculate: 9 * -3",
+      "answer_format": "short_text",
+      "correct_answer": "-27",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-029",
+      "topic": "negatives",
+      "difficulty": 5,
+      "prompt": "Calculate: -4 * 6",
+      "answer_format": "short_text",
+      "correct_answer": "-24",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-030",
+      "topic": "negatives",
+      "difficulty": 5,
+      "prompt": "Calculate: 5 * -8",
+      "answer_format": "short_text",
+      "correct_answer": "-40",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-031",
+      "topic": "negatives",
+      "difficulty": 6,
+      "prompt": "Calculate: -3 * -7",
+      "answer_format": "short_text",
+      "correct_answer": "21",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-032",
+      "topic": "negatives",
+      "difficulty": 6,
+      "prompt": "Calculate: -8 * -2",
+      "answer_format": "short_text",
+      "correct_answer": "16",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-033",
+      "topic": "negatives",
+      "difficulty": 6,
+      "prompt": "Calculate: -6 * -5",
+      "answer_format": "short_text",
+      "correct_answer": "30",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-034",
+      "topic": "negatives",
+      "difficulty": 6,
+      "prompt": "Calculate: -9 * -4",
+      "answer_format": "short_text",
+      "correct_answer": "36",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-035",
+      "topic": "negatives",
+      "difficulty": 6,
+      "prompt": "Calculate: -12 * -3",
+      "answer_format": "short_text",
+      "correct_answer": "36",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-036",
+      "topic": "negatives",
+      "difficulty": 6,
+      "prompt": "Calculate: -7 * -7",
+      "answer_format": "short_text",
+      "correct_answer": "49",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-037",
+      "topic": "negatives",
+      "difficulty": 7,
+      "prompt": "Evaluate: -3 + 5 * (-2)",
+      "answer_format": "short_text",
+      "correct_answer": "-13",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-038",
+      "topic": "negatives",
+      "difficulty": 7,
+      "prompt": "Evaluate: 12 - 4 * (-3)",
+      "answer_format": "short_text",
+      "correct_answer": "24",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-039",
+      "topic": "negatives",
+      "difficulty": 7,
+      "prompt": "Evaluate: -10 + 6 * 3",
+      "answer_format": "short_text",
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-040",
+      "topic": "negatives",
+      "difficulty": 7,
+      "prompt": "Evaluate: 8 + (-12) / 3",
+      "answer_format": "short_text",
+      "correct_answer": "4",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-041",
+      "topic": "negatives",
+      "difficulty": 7,
+      "prompt": "Evaluate: -18 / 3 + 7",
+      "answer_format": "short_text",
+      "correct_answer": "1",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-042",
+      "topic": "negatives",
+      "difficulty": 7,
+      "prompt": "Evaluate: 15 + (-4) * (-2)",
+      "answer_format": "short_text",
+      "correct_answer": "23",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-043",
+      "topic": "negatives",
+      "difficulty": 8,
+      "prompt": "Evaluate: -2(3 - 7)",
+      "answer_format": "short_text",
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-044",
+      "topic": "negatives",
+      "difficulty": 8,
+      "prompt": "Evaluate: 5 - (-3 + 8)",
+      "answer_format": "short_text",
+      "correct_answer": "0",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-045",
+      "topic": "negatives",
+      "difficulty": 8,
+      "prompt": "Evaluate: -4 + (6 - 10)",
+      "answer_format": "short_text",
+      "correct_answer": "-8",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-046",
+      "topic": "negatives",
+      "difficulty": 8,
+      "prompt": "Evaluate: (-3)(-2) - 5",
+      "answer_format": "short_text",
+      "correct_answer": "1",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-047",
+      "topic": "negatives",
+      "difficulty": 8,
+      "prompt": "Evaluate: -12 - (-5 - 4)",
+      "answer_format": "short_text",
+      "correct_answer": "-3",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-048",
+      "topic": "negatives",
+      "difficulty": 8,
+      "prompt": "Evaluate: (7 - 12) * (-2)",
+      "answer_format": "short_text",
+      "correct_answer": "10",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-049",
+      "topic": "negatives",
+      "difficulty": 9,
+      "prompt": "A server room is at -2 degrees C. Overnight it drops by 7 degrees C. What is the new temperature?",
+      "answer_format": "short_text",
+      "correct_answer": "-9",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-050",
+      "topic": "negatives",
+      "difficulty": 9,
+      "prompt": "Your monitoring dashboard shows an error rate change of -12. Then it changes by +5. What is the total change?",
+      "answer_format": "short_text",
+      "correct_answer": "-7",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-051",
+      "topic": "negatives",
+      "difficulty": 9,
+      "prompt": "A log counter goes from 15 to -6 (a drop). What is the change? (final - start)",
+      "answer_format": "short_text",
+      "correct_answer": "-21",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "neg-052",
+      "topic": "negatives",
+      "difficulty": 9,
+      "prompt": "An incident queue had -3 backlog (ahead). Then 9 incidents arrived. What is the new backlog?",
+      "answer_format": "short_text",
+      "correct_answer": "6",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-053",
+      "topic": "negatives",
+      "difficulty": 9,
+      "prompt": "A metric is at -10. After a fix, it increases by 4, then decreases by 9. What is the final value?",
+      "answer_format": "short_text",
+      "correct_answer": "-15",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-054",
+      "topic": "negatives",
+      "difficulty": 9,
+      "prompt": "A battery level is at 6. It drains by 11. What is the new level?",
+      "answer_format": "short_text",
+      "correct_answer": "-5",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "neg-055",
+      "topic": "negatives",
+      "difficulty": 10,
+      "prompt": "Evaluate: -(-8) + (-3) * 4",
+      "answer_format": "short_text",
+      "correct_answer": "-4",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-056",
+      "topic": "negatives",
+      "difficulty": 10,
+      "prompt": "Evaluate: (-15 - (-5)) * (-2)",
+      "answer_format": "short_text",
+      "correct_answer": "20",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-057",
+      "topic": "negatives",
+      "difficulty": 10,
+      "prompt": "Evaluate: -24 / (-6) + (-7)",
+      "answer_format": "short_text",
+      "correct_answer": "-3",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-058",
+      "topic": "negatives",
+      "difficulty": 10,
+      "prompt": "Evaluate: 10 - [ (-3) * (-4) ]",
+      "answer_format": "short_text",
+      "correct_answer": "-2",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-059",
+      "topic": "negatives",
+      "difficulty": 10,
+      "prompt": "Evaluate: (-2) * (-3) * (-4)",
+      "answer_format": "short_text",
+      "correct_answer": "-24",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "neg-060",
+      "topic": "negatives",
+      "difficulty": 10,
+      "prompt": "Evaluate: (-30 / 5) - (-9)",
+      "answer_format": "short_text",
+      "correct_answer": "3",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
     }
   ],
   "linear-equations": [
     {
       "id": "lin-001",
       "topic": "linear-equations",
-      "prompt": "Solve for x: x + 5 = 12",
+      "difficulty": 1,
+      "prompt": "Solve for x: x + 3 = 11",
       "answer_format": "short_text",
-      "correct_answer": "7",
-      "candidate_misconception_ids": ["LIN-01", "LIN-02"]
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
     },
     {
       "id": "lin-002",
       "topic": "linear-equations",
-      "prompt": "Solve for x: 3x = 15",
+      "difficulty": 1,
+      "prompt": "Solve for x: x + 5 = 14",
       "answer_format": "short_text",
-      "correct_answer": "5",
-      "candidate_misconception_ids": ["LIN-03", "LIN-04"]
+      "correct_answer": "9",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
     },
     {
       "id": "lin-003",
       "topic": "linear-equations",
-      "prompt": "Solve for x: 2x + 4 = 10",
+      "difficulty": 1,
+      "prompt": "Solve for x: x + 7 = 20",
       "answer_format": "short_text",
-      "correct_answer": "3",
-      "candidate_misconception_ids": ["LIN-01", "LIN-03", "LIN-05"]
+      "correct_answer": "13",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
     },
     {
       "id": "lin-004",
       "topic": "linear-equations",
-      "prompt": "Solve for x: x - 3 = 8",
+      "difficulty": 1,
+      "prompt": "Solve for x: x + 9 = 15",
       "answer_format": "short_text",
-      "correct_answer": "11",
-      "candidate_misconception_ids": ["LIN-01", "LIN-02"]
+      "correct_answer": "6",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
     },
     {
       "id": "lin-005",
       "topic": "linear-equations",
-      "prompt": "Solve for x: 4x - 2 = 14",
+      "difficulty": 1,
+      "prompt": "Solve for x: x + 12 = 25",
+      "answer_format": "short_text",
+      "correct_answer": "13",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-006",
+      "topic": "linear-equations",
+      "difficulty": 1,
+      "prompt": "Solve for x: x + 4 = 9",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-007",
+      "topic": "linear-equations",
+      "difficulty": 2,
+      "prompt": "Solve for x: x - 3 = 8",
+      "answer_format": "short_text",
+      "correct_answer": "11",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-008",
+      "topic": "linear-equations",
+      "difficulty": 2,
+      "prompt": "Solve for x: x - 5 = 2",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-009",
+      "topic": "linear-equations",
+      "difficulty": 2,
+      "prompt": "Solve for x: x - 7 = 10",
+      "answer_format": "short_text",
+      "correct_answer": "17",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-010",
+      "topic": "linear-equations",
+      "difficulty": 2,
+      "prompt": "Solve for x: x - 9 = 0",
+      "answer_format": "short_text",
+      "correct_answer": "9",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-011",
+      "topic": "linear-equations",
+      "difficulty": 2,
+      "prompt": "Solve for x: x - 4 = -1",
+      "answer_format": "short_text",
+      "correct_answer": "3",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-012",
+      "topic": "linear-equations",
+      "difficulty": 2,
+      "prompt": "Solve for x: x - 11 = 6",
+      "answer_format": "short_text",
+      "correct_answer": "17",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-013",
+      "topic": "linear-equations",
+      "difficulty": 3,
+      "prompt": "Solve for x: 2x = 14",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-014",
+      "topic": "linear-equations",
+      "difficulty": 3,
+      "prompt": "Solve for x: 3x = 21",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-015",
+      "topic": "linear-equations",
+      "difficulty": 3,
+      "prompt": "Solve for x: 4x = 32",
+      "answer_format": "short_text",
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-016",
+      "topic": "linear-equations",
+      "difficulty": 3,
+      "prompt": "Solve for x: 5x = 45",
+      "answer_format": "short_text",
+      "correct_answer": "9",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-017",
+      "topic": "linear-equations",
+      "difficulty": 3,
+      "prompt": "Solve for x: 6x = 54",
+      "answer_format": "short_text",
+      "correct_answer": "9",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-018",
+      "topic": "linear-equations",
+      "difficulty": 3,
+      "prompt": "Solve for x: 8x = 72",
+      "answer_format": "short_text",
+      "correct_answer": "9",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-019",
+      "topic": "linear-equations",
+      "difficulty": 4,
+      "prompt": "Solve for x: x/2 = 7",
+      "answer_format": "short_text",
+      "correct_answer": "14",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-020",
+      "topic": "linear-equations",
+      "difficulty": 4,
+      "prompt": "Solve for x: x/3 = 5",
+      "answer_format": "short_text",
+      "correct_answer": "15",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-021",
+      "topic": "linear-equations",
+      "difficulty": 4,
+      "prompt": "Solve for x: x/4 = 9",
+      "answer_format": "short_text",
+      "correct_answer": "36",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-022",
+      "topic": "linear-equations",
+      "difficulty": 4,
+      "prompt": "Solve for x: x/6 = 3",
+      "answer_format": "short_text",
+      "correct_answer": "18",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-023",
+      "topic": "linear-equations",
+      "difficulty": 4,
+      "prompt": "Solve for x: x/8 = 4",
+      "answer_format": "short_text",
+      "correct_answer": "32",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-024",
+      "topic": "linear-equations",
+      "difficulty": 4,
+      "prompt": "Solve for x: x/5 = 11",
+      "answer_format": "short_text",
+      "correct_answer": "55",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-025",
+      "topic": "linear-equations",
+      "difficulty": 5,
+      "prompt": "Solve for x: 2x + 3 = 17",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-026",
+      "topic": "linear-equations",
+      "difficulty": 5,
+      "prompt": "Solve for x: 3x + 4 = 22",
+      "answer_format": "short_text",
+      "correct_answer": "6",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-027",
+      "topic": "linear-equations",
+      "difficulty": 5,
+      "prompt": "Solve for x: 4x + 5 = 29",
+      "answer_format": "short_text",
+      "correct_answer": "6",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-028",
+      "topic": "linear-equations",
+      "difficulty": 5,
+      "prompt": "Solve for x: 5x + 7 = 32",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-029",
+      "topic": "linear-equations",
+      "difficulty": 5,
+      "prompt": "Solve for x: 6x + 2 = 38",
+      "answer_format": "short_text",
+      "correct_answer": "6",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-030",
+      "topic": "linear-equations",
+      "difficulty": 5,
+      "prompt": "Solve for x: 7x + 1 = 50",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-031",
+      "topic": "linear-equations",
+      "difficulty": 6,
+      "prompt": "Solve for x: 2x - 3 = 13",
+      "answer_format": "short_text",
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-032",
+      "topic": "linear-equations",
+      "difficulty": 6,
+      "prompt": "Solve for x: 3x - 5 = 16",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-033",
+      "topic": "linear-equations",
+      "difficulty": 6,
+      "prompt": "Solve for x: 4x - 7 = 25",
+      "answer_format": "short_text",
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-034",
+      "topic": "linear-equations",
+      "difficulty": 6,
+      "prompt": "Solve for x: 5x - 4 = 21",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-035",
+      "topic": "linear-equations",
+      "difficulty": 6,
+      "prompt": "Solve for x: 6x - 8 = 28",
+      "answer_format": "short_text",
+      "correct_answer": "6",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-036",
+      "topic": "linear-equations",
+      "difficulty": 6,
+      "prompt": "Solve for x: 7x - 6 = 29",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-037",
+      "topic": "linear-equations",
+      "difficulty": 7,
+      "prompt": "Solve for x: 8 + x = 20",
+      "answer_format": "short_text",
+      "correct_answer": "12",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-038",
+      "topic": "linear-equations",
+      "difficulty": 7,
+      "prompt": "Solve for x: 15 + x = 40",
+      "answer_format": "short_text",
+      "correct_answer": "25",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-039",
+      "topic": "linear-equations",
+      "difficulty": 7,
+      "prompt": "Solve for x: 6 + x = 9",
+      "answer_format": "short_text",
+      "correct_answer": "3",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-040",
+      "topic": "linear-equations",
+      "difficulty": 7,
+      "prompt": "Solve for x: 13 + x = 30",
+      "answer_format": "short_text",
+      "correct_answer": "17",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-041",
+      "topic": "linear-equations",
+      "difficulty": 7,
+      "prompt": "Solve for x: 25 + x = 50",
+      "answer_format": "short_text",
+      "correct_answer": "25",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-042",
+      "topic": "linear-equations",
+      "difficulty": 7,
+      "prompt": "Solve for x: 9 + x = 14",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-043",
+      "topic": "linear-equations",
+      "difficulty": 8,
+      "prompt": "Solve for x: 10 - x = 3",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-044",
+      "topic": "linear-equations",
+      "difficulty": 8,
+      "prompt": "Solve for x: 7 - x = -2",
+      "answer_format": "short_text",
+      "correct_answer": "9",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-045",
+      "topic": "linear-equations",
+      "difficulty": 8,
+      "prompt": "Solve for x: 12 - x = 8",
       "answer_format": "short_text",
       "correct_answer": "4",
-      "candidate_misconception_ids": ["LIN-01", "LIN-03", "LIN-05"]
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-046",
+      "topic": "linear-equations",
+      "difficulty": 8,
+      "prompt": "Solve for x: 5 - x = -5",
+      "answer_format": "short_text",
+      "correct_answer": "10",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-047",
+      "topic": "linear-equations",
+      "difficulty": 8,
+      "prompt": "Solve for x: 20 - x = 11",
+      "answer_format": "short_text",
+      "correct_answer": "9",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-048",
+      "topic": "linear-equations",
+      "difficulty": 8,
+      "prompt": "Solve for x: 9 - x = 15",
+      "answer_format": "short_text",
+      "correct_answer": "-6",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-049",
+      "topic": "linear-equations",
+      "difficulty": 9,
+      "prompt": "An on-call engineer earns a $20 base bonus plus $5 per incident. Total bonus was $45. How many incidents? (x)",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-04",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-050",
+      "topic": "linear-equations",
+      "difficulty": 9,
+      "prompt": "A monitoring tool costs $12 per month plus a one-time $8 setup fee. This month you paid $44. How many months (x) were billed?",
+      "answer_format": "short_text",
+      "correct_answer": "3",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-04",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-051",
+      "topic": "linear-equations",
+      "difficulty": 9,
+      "prompt": "A data pipeline processes x events per minute. In 6 minutes it processes 90 events. What is x?",
+      "answer_format": "short_text",
+      "correct_answer": "15",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-04",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-052",
+      "topic": "linear-equations",
+      "difficulty": 9,
+      "prompt": "A team fixed 4 bugs per day for x days and fixed 52 bugs total. How many days?",
+      "answer_format": "short_text",
+      "correct_answer": "13",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-04",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-053",
+      "topic": "linear-equations",
+      "difficulty": 9,
+      "prompt": "A service has x servers. If you add 7 more, you have 23. What is x?",
+      "answer_format": "short_text",
+      "correct_answer": "16",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-04",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-054",
+      "topic": "linear-equations",
+      "difficulty": 9,
+      "prompt": "A latency target is 80 ms. Current latency is x, and after reducing by 15 ms you hit the target: x - 15 = 80. What is x?",
+      "answer_format": "short_text",
+      "correct_answer": "95",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-04",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-055",
+      "topic": "linear-equations",
+      "difficulty": 10,
+      "prompt": "Solve for x: -2x + 3 = 11",
+      "answer_format": "short_text",
+      "correct_answer": "-4",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-056",
+      "topic": "linear-equations",
+      "difficulty": 10,
+      "prompt": "Solve for x: -3x - 6 = 9",
+      "answer_format": "short_text",
+      "correct_answer": "-5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-057",
+      "topic": "linear-equations",
+      "difficulty": 10,
+      "prompt": "Solve for x: 4x + (-8) = 20",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-058",
+      "topic": "linear-equations",
+      "difficulty": 10,
+      "prompt": "Solve for x: 5x - (-10) = 35",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "lin-059",
+      "topic": "linear-equations",
+      "difficulty": 10,
+      "prompt": "Solve for x: x/(-4) = -3",
+      "answer_format": "short_text",
+      "correct_answer": "12",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "lin-060",
+      "topic": "linear-equations",
+      "difficulty": 10,
+      "prompt": "Solve for x: -6x = -54",
+      "answer_format": "short_text",
+      "correct_answer": "9",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
     }
   ],
   "mixed-review": [
     {
       "id": "mix-001",
-      "topic": "fractions",
-      "prompt": "Calculate: 1/3 + 1/6",
+      "topic": "mixed-review",
+      "difficulty": 1,
+      "prompt": "[Fractions] Calculate (simplify if needed): 5/12 + 1/12",
       "answer_format": "short_text",
       "correct_answer": "1/2",
-      "candidate_misconception_ids": ["FRAC-01", "FRAC-02"]
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_same_denom"
     },
     {
       "id": "mix-002",
-      "topic": "negatives",
-      "prompt": "Calculate: -8 + 3",
+      "topic": "mixed-review",
+      "difficulty": 2,
+      "prompt": "[Fractions] Calculate (simplify if needed): 9/10 - 3/10",
       "answer_format": "short_text",
-      "correct_answer": "-5",
-      "candidate_misconception_ids": ["NEG-01", "NEG-02"]
+      "correct_answer": "3/5",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_same_denom"
     },
     {
       "id": "mix-003",
-      "topic": "linear-equations",
-      "prompt": "Solve for x: 2x = 8",
+      "topic": "mixed-review",
+      "difficulty": 3,
+      "prompt": "[Fractions] Calculate (simplify if needed): 5/6 - 1/3",
       "answer_format": "short_text",
-      "correct_answer": "4",
-      "candidate_misconception_ids": ["LIN-03", "LIN-04"]
+      "correct_answer": "1/2",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "mix-004",
+      "topic": "mixed-review",
+      "difficulty": 4,
+      "prompt": "[Fractions] Calculate (simplify if needed): 3/7 + 2/7",
+      "answer_format": "short_text",
+      "correct_answer": "5/7",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_same_denom"
+    },
+    {
+      "id": "mix-005",
+      "topic": "mixed-review",
+      "difficulty": 5,
+      "prompt": "[Fractions] Calculate (simplify if needed): 7/8 - 1/3",
+      "answer_format": "short_text",
+      "correct_answer": "13/24",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "mix-006",
+      "topic": "mixed-review",
+      "difficulty": 6,
+      "prompt": "[Fractions] Calculate (simplify if needed): 2/6 + 1/3",
+      "answer_format": "short_text",
+      "correct_answer": "2/3",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "mix-007",
+      "topic": "mixed-review",
+      "difficulty": 6,
+      "prompt": "[Fractions] Calculate (simplify if needed): 7/14 - 1/7",
+      "answer_format": "short_text",
+      "correct_answer": "5/14",
+      "candidate_misconception_ids": [
+        "FRAC-04",
+        "FRAC-02",
+        "FRAC-06"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "mix-008",
+      "topic": "mixed-review",
+      "difficulty": 7,
+      "prompt": "[Fractions] Calculate (simplify if needed): 13/8 + 5/12",
+      "answer_format": "short_text",
+      "correct_answer": "49/24",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "mix-009",
+      "topic": "mixed-review",
+      "difficulty": 8,
+      "prompt": "[Fractions] A log pipeline drops 1/12 of events due to noise filters, then drops another 1/8 due to rate limits. What fraction is dropped in total? (simplify)",
+      "answer_format": "short_text",
+      "correct_answer": "5/24",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "mix-010",
+      "topic": "mixed-review",
+      "difficulty": 10,
+      "prompt": "[Fractions] Compute (simplify): (3/4 - 1/8) + 1/6",
+      "answer_format": "short_text",
+      "correct_answer": "19/24",
+      "candidate_misconception_ids": [
+        "FRAC-01",
+        "FRAC-02",
+        "FRAC-03"
+      ],
+      "skill_tag": "frac_equivalence"
+    },
+    {
+      "id": "mix-011",
+      "topic": "mixed-review",
+      "difficulty": 1,
+      "prompt": "[Negatives] Calculate: 15 + (-7)",
+      "answer_format": "short_text",
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "mix-012",
+      "topic": "mixed-review",
+      "difficulty": 2,
+      "prompt": "[Negatives] Calculate: -12 + (5)",
+      "answer_format": "short_text",
+      "correct_answer": "-7",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_add"
+    },
+    {
+      "id": "mix-013",
+      "topic": "mixed-review",
+      "difficulty": 3,
+      "prompt": "[Negatives] Calculate: 12 - (-8)",
+      "answer_format": "short_text",
+      "correct_answer": "20",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "mix-014",
+      "topic": "mixed-review",
+      "difficulty": 4,
+      "prompt": "[Negatives] Calculate: -5 - (7)",
+      "answer_format": "short_text",
+      "correct_answer": "-12",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "mix-015",
+      "topic": "mixed-review",
+      "difficulty": 4,
+      "prompt": "[Negatives] Calculate: -6 - (11)",
+      "answer_format": "short_text",
+      "correct_answer": "-17",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "mix-016",
+      "topic": "mixed-review",
+      "difficulty": 5,
+      "prompt": "[Negatives] Calculate: -4 * 6",
+      "answer_format": "short_text",
+      "correct_answer": "-24",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "mix-017",
+      "topic": "mixed-review",
+      "difficulty": 6,
+      "prompt": "[Negatives] Calculate: -9 * -4",
+      "answer_format": "short_text",
+      "correct_answer": "36",
+      "candidate_misconception_ids": [
+        "NEG-05",
+        "NEG-02",
+        "NEG-06"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "mix-018",
+      "topic": "mixed-review",
+      "difficulty": 7,
+      "prompt": "[Negatives] Evaluate: -10 + 6 * 3",
+      "answer_format": "short_text",
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "mix-019",
+      "topic": "mixed-review",
+      "difficulty": 8,
+      "prompt": "[Negatives] Evaluate: 5 - (-3 + 8)",
+      "answer_format": "short_text",
+      "correct_answer": "0",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_sub"
+    },
+    {
+      "id": "mix-020",
+      "topic": "mixed-review",
+      "difficulty": 10,
+      "prompt": "[Negatives] Evaluate: (-2) * (-3) * (-4)",
+      "answer_format": "short_text",
+      "correct_answer": "-24",
+      "candidate_misconception_ids": [
+        "NEG-01",
+        "NEG-03",
+        "NEG-04"
+      ],
+      "skill_tag": "neg_mul"
+    },
+    {
+      "id": "mix-021",
+      "topic": "mixed-review",
+      "difficulty": 1,
+      "prompt": "[Linear] Solve for x: x + 7 = 20",
+      "answer_format": "short_text",
+      "correct_answer": "13",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "mix-022",
+      "topic": "mixed-review",
+      "difficulty": 2,
+      "prompt": "[Linear] Solve for x: x - 5 = 2",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "mix-023",
+      "topic": "mixed-review",
+      "difficulty": 3,
+      "prompt": "[Linear] Solve for x: 2x = 14",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "mix-024",
+      "topic": "mixed-review",
+      "difficulty": 3,
+      "prompt": "[Linear] Solve for x: 8x = 72",
+      "answer_format": "short_text",
+      "correct_answer": "9",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "mix-025",
+      "topic": "mixed-review",
+      "difficulty": 4,
+      "prompt": "[Linear] Solve for x: x/8 = 4",
+      "answer_format": "short_text",
+      "correct_answer": "32",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "frac_unlike_denom"
+    },
+    {
+      "id": "mix-026",
+      "topic": "mixed-review",
+      "difficulty": 5,
+      "prompt": "[Linear] Solve for x: 5x + 7 = 32",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "mix-027",
+      "topic": "mixed-review",
+      "difficulty": 6,
+      "prompt": "[Linear] Solve for x: 4x - 7 = 25",
+      "answer_format": "short_text",
+      "correct_answer": "8",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
+    },
+    {
+      "id": "mix-028",
+      "topic": "mixed-review",
+      "difficulty": 7,
+      "prompt": "[Linear] Solve for x: 15 + x = 40",
+      "answer_format": "short_text",
+      "correct_answer": "25",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-02",
+        "LIN-05"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "mix-029",
+      "topic": "mixed-review",
+      "difficulty": 8,
+      "prompt": "[Linear] Solve for x: 10 - x = 3",
+      "answer_format": "short_text",
+      "correct_answer": "7",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_one_step"
+    },
+    {
+      "id": "mix-030",
+      "topic": "mixed-review",
+      "difficulty": 10,
+      "prompt": "[Linear] Solve for x: 5x - (-10) = 35",
+      "answer_format": "short_text",
+      "correct_answer": "5",
+      "candidate_misconception_ids": [
+        "LIN-01",
+        "LIN-03",
+        "LIN-04"
+      ],
+      "skill_tag": "lin_two_step"
     }
   ]
 }

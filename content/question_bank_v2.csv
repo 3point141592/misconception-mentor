@@ -1,0 +1,211 @@
+id,topic,difficulty,prompt,answer_format,correct_answer,candidate_misconception_ids
+frac-001,fractions,1,Calculate (simplify if needed): 1/4 + 2/4,short_text,3/4,FRAC-01|FRAC-02|FRAC-03
+frac-002,fractions,1,Calculate (simplify if needed): 2/5 + 1/5,short_text,3/5,FRAC-01|FRAC-02|FRAC-03
+frac-003,fractions,1,Calculate (simplify if needed): 1/6 + 3/6,short_text,2/3,FRAC-01|FRAC-02|FRAC-03
+frac-004,fractions,1,Calculate (simplify if needed): 3/8 + 1/8,short_text,1/2,FRAC-01|FRAC-02|FRAC-03
+frac-005,fractions,1,Calculate (simplify if needed): 2/10 + 3/10,short_text,1/2,FRAC-01|FRAC-02|FRAC-03
+frac-006,fractions,1,Calculate (simplify if needed): 5/12 + 1/12,short_text,1/2,FRAC-01|FRAC-02|FRAC-03
+frac-007,fractions,2,Calculate (simplify if needed): 4/5 - 1/5,short_text,3/5,FRAC-04|FRAC-02|FRAC-06
+frac-008,fractions,2,Calculate (simplify if needed): 5/6 - 1/6,short_text,2/3,FRAC-04|FRAC-02|FRAC-06
+frac-009,fractions,2,Calculate (simplify if needed): 7/8 - 3/8,short_text,1/2,FRAC-04|FRAC-02|FRAC-06
+frac-010,fractions,2,Calculate (simplify if needed): 8/9 - 2/9,short_text,2/3,FRAC-04|FRAC-02|FRAC-06
+frac-011,fractions,2,Calculate (simplify if needed): 9/10 - 3/10,short_text,3/5,FRAC-04|FRAC-02|FRAC-06
+frac-012,fractions,2,Calculate (simplify if needed): 11/12 - 5/12,short_text,1/2,FRAC-04|FRAC-02|FRAC-06
+frac-013,fractions,3,Calculate (simplify if needed): 1/2 + 1/4,short_text,3/4,FRAC-01|FRAC-02|FRAC-03
+frac-014,fractions,3,Calculate (simplify if needed): 3/4 - 1/2,short_text,1/4,FRAC-04|FRAC-02|FRAC-06
+frac-015,fractions,3,Calculate (simplify if needed): 2/3 + 1/6,short_text,5/6,FRAC-01|FRAC-02|FRAC-03
+frac-016,fractions,3,Calculate (simplify if needed): 5/6 - 1/3,short_text,1/2,FRAC-04|FRAC-02|FRAC-06
+frac-017,fractions,3,Calculate (simplify if needed): 1/5 + 1/10,short_text,3/10,FRAC-01|FRAC-02|FRAC-03
+frac-018,fractions,3,Calculate (simplify if needed): 7/10 - 1/5,short_text,1/2,FRAC-04|FRAC-02|FRAC-06
+frac-019,fractions,4,Calculate (simplify if needed): 1/3 + 1/4,short_text,7/12,FRAC-01|FRAC-02|FRAC-03
+frac-020,fractions,4,Calculate (simplify if needed): 2/5 + 1/6,short_text,17/30,FRAC-01|FRAC-02|FRAC-03
+frac-021,fractions,4,Calculate (simplify if needed): 3/7 + 2/7,short_text,5/7,FRAC-01|FRAC-02|FRAC-03
+frac-022,fractions,4,Calculate (simplify if needed): 2/9 + 1/6,short_text,7/18,FRAC-01|FRAC-02|FRAC-03
+frac-023,fractions,4,Calculate (simplify if needed): 5/8 + 1/12,short_text,17/24,FRAC-01|FRAC-02|FRAC-03
+frac-024,fractions,4,Calculate (simplify if needed): 3/10 + 1/15,short_text,11/30,FRAC-01|FRAC-02|FRAC-03
+frac-025,fractions,5,Calculate (simplify if needed): 5/6 - 1/4,short_text,7/12,FRAC-04|FRAC-02|FRAC-06
+frac-026,fractions,5,Calculate (simplify if needed): 7/8 - 1/3,short_text,13/24,FRAC-04|FRAC-02|FRAC-06
+frac-027,fractions,5,Calculate (simplify if needed): 11/12 - 2/5,short_text,31/60,FRAC-04|FRAC-02|FRAC-06
+frac-028,fractions,5,Calculate (simplify if needed): 3/4 - 2/9,short_text,19/36,FRAC-04|FRAC-02|FRAC-06
+frac-029,fractions,5,Calculate (simplify if needed): 5/7 - 1/14,short_text,9/14,FRAC-04|FRAC-02|FRAC-06
+frac-030,fractions,5,Calculate (simplify if needed): 9/10 - 1/8,short_text,31/40,FRAC-04|FRAC-02|FRAC-06
+frac-031,fractions,6,Calculate (simplify if needed): 2/6 + 1/3,short_text,2/3,FRAC-01|FRAC-02|FRAC-03
+frac-032,fractions,6,Calculate (simplify if needed): 3/9 + 1/6,short_text,1/2,FRAC-01|FRAC-02|FRAC-03
+frac-033,fractions,6,Calculate (simplify if needed): 4/10 - 1/5,short_text,1/5,FRAC-04|FRAC-02|FRAC-06
+frac-034,fractions,6,Calculate (simplify if needed): 6/12 + 1/4,short_text,3/4,FRAC-01|FRAC-02|FRAC-03
+frac-035,fractions,6,Calculate (simplify if needed): 5/15 + 1/3,short_text,2/3,FRAC-01|FRAC-02|FRAC-03
+frac-036,fractions,6,Calculate (simplify if needed): 7/14 - 1/7,short_text,5/14,FRAC-04|FRAC-02|FRAC-06
+frac-037,fractions,7,Calculate (simplify if needed): 7/4 + 2/3,short_text,29/12,FRAC-01|FRAC-02|FRAC-03
+frac-038,fractions,7,Calculate (simplify if needed): 9/5 - 1/2,short_text,13/10,FRAC-04|FRAC-02|FRAC-06
+frac-039,fractions,7,Calculate (simplify if needed): 5/3 + 3/8,short_text,49/24,FRAC-01|FRAC-02|FRAC-03
+frac-040,fractions,7,Calculate (simplify if needed): 11/6 - 1/4,short_text,19/12,FRAC-04|FRAC-02|FRAC-06
+frac-041,fractions,7,Calculate (simplify if needed): 13/8 + 5/12,short_text,49/24,FRAC-01|FRAC-02|FRAC-03
+frac-042,fractions,7,Calculate (simplify if needed): 17/10 - 1/5,short_text,3/2,FRAC-04|FRAC-02|FRAC-06
+frac-043,fractions,8,"In a monitoring dashboard, 3/10 of alerts are CPU-related and 1/5 are memory-related. What fraction of alerts are CPU or memory? (simplify)",short_text,1/2,FRAC-01|FRAC-02|FRAC-03
+frac-044,fractions,8,"A service used 7/8 of its error budget, then saved back 1/4 of a budget by improvements. What fraction of the budget is still used? (simplify)",short_text,5/8,FRAC-01|FRAC-02|FRAC-03
+frac-045,fractions,8,An SRE team spent 2/3 of their on-call time on incidents and 1/6 on documentation. What fraction of time was spent on these two? (simplify),short_text,5/6,FRAC-01|FRAC-02|FRAC-03
+frac-046,fractions,8,"A log pipeline drops 1/12 of events due to noise filters, then drops another 1/8 due to rate limits. What fraction is dropped in total? (simplify)",short_text,5/24,FRAC-01|FRAC-02|FRAC-03
+frac-047,fractions,8,"A release window is 3/4 hour. If a deploy takes 1/6 hour, how much time is left? (simplify)",short_text,7/12,FRAC-01|FRAC-02|FRAC-03
+frac-048,fractions,8,"A dashboard shows 5/6 uptime so far. After a short outage, uptime drops by 1/15. What is the new uptime fraction? (simplify)",short_text,23/30,FRAC-01|FRAC-02|FRAC-03
+frac-049,fractions,9,Simplify the fraction: 18/24,short_text,3/4,FRAC-05|FRAC-06|FRAC-02
+frac-050,fractions,9,Simplify the fraction: 42/56,short_text,3/4,FRAC-05|FRAC-06|FRAC-02
+frac-051,fractions,9,Write a fraction equivalent to 3/5 with denominator 20 (format like 12/20).,short_text,12/20,FRAC-05|FRAC-06|FRAC-02
+frac-052,fractions,9,Write a fraction equivalent to 7/8 with denominator 32 (format like 28/32).,short_text,28/32,FRAC-05|FRAC-06|FRAC-02
+frac-053,fractions,9,Is 2/3 equal to 8/12? Answer yes or no.,short_text,yes,FRAC-05|FRAC-06|FRAC-02
+frac-054,fractions,9,Simplify the fraction: 45/60,short_text,3/4,FRAC-05|FRAC-06|FRAC-02
+frac-055,fractions,10,Compute (simplify): (1/2 + 1/3) - 1/6,short_text,2/3,FRAC-01|FRAC-02|FRAC-03
+frac-056,fractions,10,Compute (simplify): (3/4 - 1/8) + 1/6,short_text,19/24,FRAC-01|FRAC-02|FRAC-03
+frac-057,fractions,10,Compute (simplify): 1/5 + (2/3 - 1/6),short_text,7/10,FRAC-01|FRAC-02|FRAC-03
+frac-058,fractions,10,Compute (simplify): (5/6 + 1/4) - 1/3,short_text,3/4,FRAC-01|FRAC-02|FRAC-03
+frac-059,fractions,10,Compute (simplify): (7/10 - 1/5) + 1/4,short_text,3/4,FRAC-01|FRAC-02|FRAC-03
+frac-060,fractions,10,Compute (simplify): (2/9 + 1/3) - 1/6,short_text,7/18,FRAC-01|FRAC-02|FRAC-03
+neg-001,negatives,1,Calculate: 7 + (-3),short_text,4,NEG-01|NEG-03|NEG-04
+neg-002,negatives,1,Calculate: 12 + (-5),short_text,7,NEG-01|NEG-03|NEG-04
+neg-003,negatives,1,Calculate: 9 + (-2),short_text,7,NEG-01|NEG-03|NEG-04
+neg-004,negatives,1,Calculate: 15 + (-7),short_text,8,NEG-01|NEG-03|NEG-04
+neg-005,negatives,1,Calculate: 6 + (-1),short_text,5,NEG-01|NEG-03|NEG-04
+neg-006,negatives,1,Calculate: 20 + (-8),short_text,12,NEG-01|NEG-03|NEG-04
+neg-007,negatives,2,Calculate: -4 + (-6),short_text,-10,NEG-01|NEG-03|NEG-04
+neg-008,negatives,2,Calculate: -8 + (3),short_text,-5,NEG-01|NEG-03|NEG-04
+neg-009,negatives,2,Calculate: -12 + (5),short_text,-7,NEG-01|NEG-03|NEG-04
+neg-010,negatives,2,Calculate: -7 + (-9),short_text,-16,NEG-01|NEG-03|NEG-04
+neg-011,negatives,2,Calculate: 2 + (-11),short_text,-9,NEG-01|NEG-03|NEG-04
+neg-012,negatives,2,Calculate: -15 + (6),short_text,-9,NEG-01|NEG-03|NEG-04
+neg-013,negatives,3,Calculate: 5 - (-3),short_text,8,NEG-01|NEG-03|NEG-04
+neg-014,negatives,3,Calculate: 12 - (-8),short_text,20,NEG-01|NEG-03|NEG-04
+neg-015,negatives,3,Calculate: -4 - (-6),short_text,2,NEG-01|NEG-03|NEG-04
+neg-016,negatives,3,Calculate: 0 - (-7),short_text,7,NEG-01|NEG-03|NEG-04
+neg-017,negatives,3,Calculate: 9 - (-10),short_text,19,NEG-01|NEG-03|NEG-04
+neg-018,negatives,3,Calculate: -11 - (-2),short_text,-9,NEG-01|NEG-03|NEG-04
+neg-019,negatives,4,Calculate: -5 - (7),short_text,-12,NEG-01|NEG-03|NEG-04
+neg-020,negatives,4,Calculate: -12 - (4),short_text,-16,NEG-01|NEG-03|NEG-04
+neg-021,negatives,4,Calculate: -3 - (9),short_text,-12,NEG-01|NEG-03|NEG-04
+neg-022,negatives,4,Calculate: -8 - (-2),short_text,-6,NEG-01|NEG-03|NEG-04
+neg-023,negatives,4,Calculate: -14 - (-9),short_text,-5,NEG-01|NEG-03|NEG-04
+neg-024,negatives,4,Calculate: -6 - (11),short_text,-17,NEG-01|NEG-03|NEG-04
+neg-025,negatives,5,Calculate: -3 * 4,short_text,-12,NEG-05|NEG-02|NEG-06
+neg-026,negatives,5,Calculate: 6 * -5,short_text,-30,NEG-05|NEG-02|NEG-06
+neg-027,negatives,5,Calculate: -7 * 2,short_text,-14,NEG-05|NEG-02|NEG-06
+neg-028,negatives,5,Calculate: 9 * -3,short_text,-27,NEG-05|NEG-02|NEG-06
+neg-029,negatives,5,Calculate: -4 * 6,short_text,-24,NEG-05|NEG-02|NEG-06
+neg-030,negatives,5,Calculate: 5 * -8,short_text,-40,NEG-05|NEG-02|NEG-06
+neg-031,negatives,6,Calculate: -3 * -7,short_text,21,NEG-05|NEG-02|NEG-06
+neg-032,negatives,6,Calculate: -8 * -2,short_text,16,NEG-05|NEG-02|NEG-06
+neg-033,negatives,6,Calculate: -6 * -5,short_text,30,NEG-05|NEG-02|NEG-06
+neg-034,negatives,6,Calculate: -9 * -4,short_text,36,NEG-05|NEG-02|NEG-06
+neg-035,negatives,6,Calculate: -12 * -3,short_text,36,NEG-05|NEG-02|NEG-06
+neg-036,negatives,6,Calculate: -7 * -7,short_text,49,NEG-05|NEG-02|NEG-06
+neg-037,negatives,7,Evaluate: -3 + 5 * (-2),short_text,-13,NEG-01|NEG-03|NEG-04
+neg-038,negatives,7,Evaluate: 12 - 4 * (-3),short_text,24,NEG-01|NEG-03|NEG-04
+neg-039,negatives,7,Evaluate: -10 + 6 * 3,short_text,8,NEG-01|NEG-03|NEG-04
+neg-040,negatives,7,Evaluate: 8 + (-12) / 3,short_text,4,NEG-01|NEG-03|NEG-04
+neg-041,negatives,7,Evaluate: -18 / 3 + 7,short_text,1,NEG-01|NEG-03|NEG-04
+neg-042,negatives,7,Evaluate: 15 + (-4) * (-2),short_text,23,NEG-01|NEG-03|NEG-04
+neg-043,negatives,8,Evaluate: -2(3 - 7),short_text,8,NEG-01|NEG-03|NEG-04
+neg-044,negatives,8,Evaluate: 5 - (-3 + 8),short_text,0,NEG-01|NEG-03|NEG-04
+neg-045,negatives,8,Evaluate: -4 + (6 - 10),short_text,-8,NEG-01|NEG-03|NEG-04
+neg-046,negatives,8,Evaluate: (-3)(-2) - 5,short_text,1,NEG-01|NEG-03|NEG-04
+neg-047,negatives,8,Evaluate: -12 - (-5 - 4),short_text,-3,NEG-01|NEG-03|NEG-04
+neg-048,negatives,8,Evaluate: (7 - 12) * (-2),short_text,10,NEG-01|NEG-03|NEG-04
+neg-049,negatives,9,A server room is at -2 degrees C. Overnight it drops by 7 degrees C. What is the new temperature?,short_text,-9,NEG-01|NEG-03|NEG-04
+neg-050,negatives,9,Your monitoring dashboard shows an error rate change of -12. Then it changes by +5. What is the total change?,short_text,-7,NEG-01|NEG-03|NEG-04
+neg-051,negatives,9,A log counter goes from 15 to -6 (a drop). What is the change? (final - start),short_text,-21,NEG-01|NEG-03|NEG-04
+neg-052,negatives,9,An incident queue had -3 backlog (ahead). Then 9 incidents arrived. What is the new backlog?,short_text,6,NEG-01|NEG-03|NEG-04
+neg-053,negatives,9,"A metric is at -10. After a fix, it increases by 4, then decreases by 9. What is the final value?",short_text,-15,NEG-01|NEG-03|NEG-04
+neg-054,negatives,9,A battery level is at 6. It drains by 11. What is the new level?,short_text,-5,NEG-01|NEG-03|NEG-04
+neg-055,negatives,10,Evaluate: -(-8) + (-3) * 4,short_text,-4,NEG-01|NEG-03|NEG-04
+neg-056,negatives,10,Evaluate: (-15 - (-5)) * (-2),short_text,20,NEG-01|NEG-03|NEG-04
+neg-057,negatives,10,Evaluate: -24 / (-6) + (-7),short_text,-3,NEG-01|NEG-03|NEG-04
+neg-058,negatives,10,Evaluate: 10 - [ (-3) * (-4) ],short_text,-2,NEG-01|NEG-03|NEG-04
+neg-059,negatives,10,Evaluate: (-2) * (-3) * (-4),short_text,-24,NEG-01|NEG-03|NEG-04
+neg-060,negatives,10,Evaluate: (-30 / 5) - (-9),short_text,3,NEG-01|NEG-03|NEG-04
+lin-001,linear-equations,1,Solve for x: x + 3 = 11,short_text,8,LIN-01|LIN-02|LIN-05
+lin-002,linear-equations,1,Solve for x: x + 5 = 14,short_text,9,LIN-01|LIN-02|LIN-05
+lin-003,linear-equations,1,Solve for x: x + 7 = 20,short_text,13,LIN-01|LIN-02|LIN-05
+lin-004,linear-equations,1,Solve for x: x + 9 = 15,short_text,6,LIN-01|LIN-02|LIN-05
+lin-005,linear-equations,1,Solve for x: x + 12 = 25,short_text,13,LIN-01|LIN-02|LIN-05
+lin-006,linear-equations,1,Solve for x: x + 4 = 9,short_text,5,LIN-01|LIN-02|LIN-05
+lin-007,linear-equations,2,Solve for x: x - 3 = 8,short_text,11,LIN-01|LIN-02|LIN-05
+lin-008,linear-equations,2,Solve for x: x - 5 = 2,short_text,7,LIN-01|LIN-02|LIN-05
+lin-009,linear-equations,2,Solve for x: x - 7 = 10,short_text,17,LIN-01|LIN-02|LIN-05
+lin-010,linear-equations,2,Solve for x: x - 9 = 0,short_text,9,LIN-01|LIN-02|LIN-05
+lin-011,linear-equations,2,Solve for x: x - 4 = -1,short_text,3,LIN-01|LIN-02|LIN-05
+lin-012,linear-equations,2,Solve for x: x - 11 = 6,short_text,17,LIN-01|LIN-02|LIN-05
+lin-013,linear-equations,3,Solve for x: 2x = 14,short_text,7,LIN-01|LIN-02|LIN-05
+lin-014,linear-equations,3,Solve for x: 3x = 21,short_text,7,LIN-01|LIN-02|LIN-05
+lin-015,linear-equations,3,Solve for x: 4x = 32,short_text,8,LIN-01|LIN-02|LIN-05
+lin-016,linear-equations,3,Solve for x: 5x = 45,short_text,9,LIN-01|LIN-02|LIN-05
+lin-017,linear-equations,3,Solve for x: 6x = 54,short_text,9,LIN-01|LIN-02|LIN-05
+lin-018,linear-equations,3,Solve for x: 8x = 72,short_text,9,LIN-01|LIN-02|LIN-05
+lin-019,linear-equations,4,Solve for x: x/2 = 7,short_text,14,LIN-01|LIN-02|LIN-05
+lin-020,linear-equations,4,Solve for x: x/3 = 5,short_text,15,LIN-01|LIN-02|LIN-05
+lin-021,linear-equations,4,Solve for x: x/4 = 9,short_text,36,LIN-01|LIN-02|LIN-05
+lin-022,linear-equations,4,Solve for x: x/6 = 3,short_text,18,LIN-01|LIN-02|LIN-05
+lin-023,linear-equations,4,Solve for x: x/8 = 4,short_text,32,LIN-01|LIN-02|LIN-05
+lin-024,linear-equations,4,Solve for x: x/5 = 11,short_text,55,LIN-01|LIN-02|LIN-05
+lin-025,linear-equations,5,Solve for x: 2x + 3 = 17,short_text,7,LIN-01|LIN-03|LIN-04
+lin-026,linear-equations,5,Solve for x: 3x + 4 = 22,short_text,6,LIN-01|LIN-03|LIN-04
+lin-027,linear-equations,5,Solve for x: 4x + 5 = 29,short_text,6,LIN-01|LIN-03|LIN-04
+lin-028,linear-equations,5,Solve for x: 5x + 7 = 32,short_text,5,LIN-01|LIN-03|LIN-04
+lin-029,linear-equations,5,Solve for x: 6x + 2 = 38,short_text,6,LIN-01|LIN-03|LIN-04
+lin-030,linear-equations,5,Solve for x: 7x + 1 = 50,short_text,7,LIN-01|LIN-03|LIN-04
+lin-031,linear-equations,6,Solve for x: 2x - 3 = 13,short_text,8,LIN-01|LIN-03|LIN-04
+lin-032,linear-equations,6,Solve for x: 3x - 5 = 16,short_text,7,LIN-01|LIN-03|LIN-04
+lin-033,linear-equations,6,Solve for x: 4x - 7 = 25,short_text,8,LIN-01|LIN-03|LIN-04
+lin-034,linear-equations,6,Solve for x: 5x - 4 = 21,short_text,5,LIN-01|LIN-03|LIN-04
+lin-035,linear-equations,6,Solve for x: 6x - 8 = 28,short_text,6,LIN-01|LIN-03|LIN-04
+lin-036,linear-equations,6,Solve for x: 7x - 6 = 29,short_text,5,LIN-01|LIN-03|LIN-04
+lin-037,linear-equations,7,Solve for x: 8 + x = 20,short_text,12,LIN-01|LIN-02|LIN-05
+lin-038,linear-equations,7,Solve for x: 15 + x = 40,short_text,25,LIN-01|LIN-02|LIN-05
+lin-039,linear-equations,7,Solve for x: 6 + x = 9,short_text,3,LIN-01|LIN-02|LIN-05
+lin-040,linear-equations,7,Solve for x: 13 + x = 30,short_text,17,LIN-01|LIN-02|LIN-05
+lin-041,linear-equations,7,Solve for x: 25 + x = 50,short_text,25,LIN-01|LIN-02|LIN-05
+lin-042,linear-equations,7,Solve for x: 9 + x = 14,short_text,5,LIN-01|LIN-02|LIN-05
+lin-043,linear-equations,8,Solve for x: 10 - x = 3,short_text,7,LIN-01|LIN-03|LIN-04
+lin-044,linear-equations,8,Solve for x: 7 - x = -2,short_text,9,LIN-01|LIN-03|LIN-04
+lin-045,linear-equations,8,Solve for x: 12 - x = 8,short_text,4,LIN-01|LIN-03|LIN-04
+lin-046,linear-equations,8,Solve for x: 5 - x = -5,short_text,10,LIN-01|LIN-03|LIN-04
+lin-047,linear-equations,8,Solve for x: 20 - x = 11,short_text,9,LIN-01|LIN-03|LIN-04
+lin-048,linear-equations,8,Solve for x: 9 - x = 15,short_text,-6,LIN-01|LIN-03|LIN-04
+lin-049,linear-equations,9,An on-call engineer earns a $20 base bonus plus $5 per incident. Total bonus was $45. How many incidents? (x),short_text,5,LIN-01|LIN-04|LIN-05
+lin-050,linear-equations,9,A monitoring tool costs $12 per month plus a one-time $8 setup fee. This month you paid $44. How many months (x) were billed?,short_text,3,LIN-01|LIN-04|LIN-05
+lin-051,linear-equations,9,A data pipeline processes x events per minute. In 6 minutes it processes 90 events. What is x?,short_text,15,LIN-01|LIN-04|LIN-05
+lin-052,linear-equations,9,A team fixed 4 bugs per day for x days and fixed 52 bugs total. How many days?,short_text,13,LIN-01|LIN-04|LIN-05
+lin-053,linear-equations,9,"A service has x servers. If you add 7 more, you have 23. What is x?",short_text,16,LIN-01|LIN-04|LIN-05
+lin-054,linear-equations,9,"A latency target is 80 ms. Current latency is x, and after reducing by 15 ms you hit the target: x - 15 = 80. What is x?",short_text,95,LIN-01|LIN-04|LIN-05
+lin-055,linear-equations,10,Solve for x: -2x + 3 = 11,short_text,-4,LIN-01|LIN-03|LIN-04
+lin-056,linear-equations,10,Solve for x: -3x - 6 = 9,short_text,-5,LIN-01|LIN-03|LIN-04
+lin-057,linear-equations,10,Solve for x: 4x + (-8) = 20,short_text,7,LIN-01|LIN-03|LIN-04
+lin-058,linear-equations,10,Solve for x: 5x - (-10) = 35,short_text,5,LIN-01|LIN-03|LIN-04
+lin-059,linear-equations,10,Solve for x: x/(-4) = -3,short_text,12,LIN-01|LIN-03|LIN-04
+lin-060,linear-equations,10,Solve for x: -6x = -54,short_text,9,LIN-01|LIN-03|LIN-04
+mix-001,mixed-review,1,[Fractions] Calculate (simplify if needed): 5/12 + 1/12,short_text,1/2,FRAC-01|FRAC-02|FRAC-03
+mix-002,mixed-review,2,[Fractions] Calculate (simplify if needed): 9/10 - 3/10,short_text,3/5,FRAC-04|FRAC-02|FRAC-06
+mix-003,mixed-review,3,[Fractions] Calculate (simplify if needed): 5/6 - 1/3,short_text,1/2,FRAC-04|FRAC-02|FRAC-06
+mix-004,mixed-review,4,[Fractions] Calculate (simplify if needed): 3/7 + 2/7,short_text,5/7,FRAC-01|FRAC-02|FRAC-03
+mix-005,mixed-review,5,[Fractions] Calculate (simplify if needed): 7/8 - 1/3,short_text,13/24,FRAC-04|FRAC-02|FRAC-06
+mix-006,mixed-review,6,[Fractions] Calculate (simplify if needed): 2/6 + 1/3,short_text,2/3,FRAC-01|FRAC-02|FRAC-03
+mix-007,mixed-review,6,[Fractions] Calculate (simplify if needed): 7/14 - 1/7,short_text,5/14,FRAC-04|FRAC-02|FRAC-06
+mix-008,mixed-review,7,[Fractions] Calculate (simplify if needed): 13/8 + 5/12,short_text,49/24,FRAC-01|FRAC-02|FRAC-03
+mix-009,mixed-review,8,"[Fractions] A log pipeline drops 1/12 of events due to noise filters, then drops another 1/8 due to rate limits. What fraction is dropped in total? (simplify)",short_text,5/24,FRAC-01|FRAC-02|FRAC-03
+mix-010,mixed-review,10,[Fractions] Compute (simplify): (3/4 - 1/8) + 1/6,short_text,19/24,FRAC-01|FRAC-02|FRAC-03
+mix-011,mixed-review,1,[Negatives] Calculate: 15 + (-7),short_text,8,NEG-01|NEG-03|NEG-04
+mix-012,mixed-review,2,[Negatives] Calculate: -12 + (5),short_text,-7,NEG-01|NEG-03|NEG-04
+mix-013,mixed-review,3,[Negatives] Calculate: 12 - (-8),short_text,20,NEG-01|NEG-03|NEG-04
+mix-014,mixed-review,4,[Negatives] Calculate: -5 - (7),short_text,-12,NEG-01|NEG-03|NEG-04
+mix-015,mixed-review,4,[Negatives] Calculate: -6 - (11),short_text,-17,NEG-01|NEG-03|NEG-04
+mix-016,mixed-review,5,[Negatives] Calculate: -4 * 6,short_text,-24,NEG-05|NEG-02|NEG-06
+mix-017,mixed-review,6,[Negatives] Calculate: -9 * -4,short_text,36,NEG-05|NEG-02|NEG-06
+mix-018,mixed-review,7,[Negatives] Evaluate: -10 + 6 * 3,short_text,8,NEG-01|NEG-03|NEG-04
+mix-019,mixed-review,8,[Negatives] Evaluate: 5 - (-3 + 8),short_text,0,NEG-01|NEG-03|NEG-04
+mix-020,mixed-review,10,[Negatives] Evaluate: (-2) * (-3) * (-4),short_text,-24,NEG-01|NEG-03|NEG-04
+mix-021,mixed-review,1,[Linear] Solve for x: x + 7 = 20,short_text,13,LIN-01|LIN-02|LIN-05
+mix-022,mixed-review,2,[Linear] Solve for x: x - 5 = 2,short_text,7,LIN-01|LIN-02|LIN-05
+mix-023,mixed-review,3,[Linear] Solve for x: 2x = 14,short_text,7,LIN-01|LIN-02|LIN-05
+mix-024,mixed-review,3,[Linear] Solve for x: 8x = 72,short_text,9,LIN-01|LIN-02|LIN-05
+mix-025,mixed-review,4,[Linear] Solve for x: x/8 = 4,short_text,32,LIN-01|LIN-02|LIN-05
+mix-026,mixed-review,5,[Linear] Solve for x: 5x + 7 = 32,short_text,5,LIN-01|LIN-03|LIN-04
+mix-027,mixed-review,6,[Linear] Solve for x: 4x - 7 = 25,short_text,8,LIN-01|LIN-03|LIN-04
+mix-028,mixed-review,7,[Linear] Solve for x: 15 + x = 40,short_text,25,LIN-01|LIN-02|LIN-05
+mix-029,mixed-review,8,[Linear] Solve for x: 10 - x = 3,short_text,7,LIN-01|LIN-03|LIN-04
+mix-030,mixed-review,10,[Linear] Solve for x: 5x - (-10) = 35,short_text,5,LIN-01|LIN-03|LIN-04

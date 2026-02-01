@@ -1,0 +1,58 @@
+<svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; height: auto;">
+  <!-- Background -->
+  <rect width="360" height="280" fill="#FFF3E0" rx="16"/>
+  
+  <!-- Title -->
+  <text x="180" y="28" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="18" font-weight="bold" fill="#E65100">Balance the Equation!</text>
+  
+  <!-- Base/Stand -->
+  <rect x="150" y="230" width="60" height="20" rx="4" fill="#8D6E63" stroke="#6D4C41" stroke-width="2"/>
+  <rect x="165" y="180" width="30" height="55" rx="4" fill="#A1887F" stroke="#8D6E63" stroke-width="2"/>
+  
+  <!-- Fulcrum triangle -->
+  <polygon points="180,180 165,200 195,200" fill="#FFAB40" stroke="#FF9100" stroke-width="2"/>
+  
+  <!-- Balance beam -->
+  <rect x="40" y="115" width="280" height="12" rx="6" fill="#42A5F5" stroke="#1E88E5" stroke-width="2"/>
+  
+  <!-- Left pan hanger -->
+  <line x1="90" y1="127" x2="90" y2="155" stroke="#5D4037" stroke-width="3"/>
+  <line x1="70" y1="155" x2="110" y2="155" stroke="#5D4037" stroke-width="3"/>
+  <line x1="70" y1="155" x2="60" y2="180" stroke="#5D4037" stroke-width="2"/>
+  <line x1="110" y1="155" x2="120" y2="180" stroke="#5D4037" stroke-width="2"/>
+  
+  <!-- Left pan -->
+  <ellipse cx="90" cy="185" rx="45" ry="12" fill="#FFC107" stroke="#FFA000" stroke-width="2"/>
+  <rect x="45" y="173" width="90" height="12" rx="4" fill="#FFD54F" stroke="#FFC107" stroke-width="2"/>
+  
+  <!-- Left pan content: x + 3 -->
+  <rect x="50" y="138" width="35" height="32" rx="8" fill="#9C27B0" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="67" y="160" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="18" font-weight="bold" fill="white">x</text>
+  
+  <text x="95" y="160" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="20" font-weight="bold" fill="#4A4A4A">+</text>
+  
+  <rect x="108" y="138" width="28" height="32" rx="8" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <text x="122" y="160" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="16" font-weight="bold" fill="white">3</text>
+  
+  <!-- Right pan hanger -->
+  <line x1="270" y1="127" x2="270" y2="155" stroke="#5D4037" stroke-width="3"/>
+  <line x1="250" y1="155" x2="290" y2="155" stroke="#5D4037" stroke-width="3"/>
+  <line x1="250" y1="155" x2="240" y2="180" stroke="#5D4037" stroke-width="2"/>
+  <line x1="290" y1="155" x2="300" y2="180" stroke="#5D4037" stroke-width="2"/>
+  
+  <!-- Right pan -->
+  <ellipse cx="270" cy="185" rx="45" ry="12" fill="#FFC107" stroke="#FFA000" stroke-width="2"/>
+  <rect x="225" y="173" width="90" height="12" rx="4" fill="#FFD54F" stroke="#FFC107" stroke-width="2"/>
+  
+  <!-- Right pan content: 10 -->
+  <rect x="250" y="138" width="40" height="32" rx="8" fill="#2196F3" stroke="#1976D2" stroke-width="2"/>
+  <text x="270" y="160" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="16" font-weight="bold" fill="white">10</text>
+  
+  <!-- Equal sign in center -->
+  <circle cx="180" cy="95" r="18" fill="#FF5722" stroke="#E64A19" stroke-width="2"/>
+  <text x="180" y="101" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">=</text>
+  
+  <!-- Bottom label -->
+  <rect x="100" y="245" width="160" height="28" rx="14" fill="#9C27B0"/>
+  <text x="180" y="265" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="14" font-weight="bold" fill="white">x + 3 = 10 → x = 7</text>
+</svg>

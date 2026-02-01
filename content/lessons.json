@@ -1,0 +1,153 @@
+{
+  "lessons": [
+    {
+      "id": "fractions",
+      "title": "Fractions",
+      "overview": "Learn how to add, subtract, and work with fractions confidently!",
+      "explanation": [
+        "A fraction represents a part of a whole. The top number (numerator) tells you how many parts you have. The bottom number (denominator) tells you how many equal parts the whole is divided into.",
+        "When adding or subtracting fractions, you need a **common denominator** first. This means both fractions must have the same bottom number. Once they do, you simply add or subtract the top numbers and keep the denominator the same."
+      ],
+      "worked_example": {
+        "problem": "Calculate: 1/4 + 1/2",
+        "steps": [
+          "Step 1: Find a common denominator. The denominators are 4 and 2. The smallest number that both divide into is 4.",
+          "Step 2: Convert 1/2 to fourths: 1/2 = 2/4 (multiply top and bottom by 2).",
+          "Step 3: Now add the numerators: 1/4 + 2/4 = 3/4.",
+          "Step 4: Check if you can simplify. 3/4 is already in simplest form."
+        ],
+        "answer": "3/4"
+      },
+      "key_takeaways": [
+        "Always find a common denominator before adding or subtracting fractions.",
+        "Only add/subtract the numerators—the denominator stays the same.",
+        "Simplify your final answer if possible."
+      ],
+      "resources": [
+        {
+          "title": "Add & Subtract Fractions (Khan Academy)",
+          "url": "https://www.khanacademy.org/math/arithmetic/x18ca194a%3Aadd-and-subtract-fractions-different-denominators",
+          "type": "article"
+        },
+        {
+          "title": "Adding Fractions Video",
+          "url": "https://www.khanacademy.org/math/cc-fifth-grade-math/imp-fractions-3/imp-adding-and-subtracting-fractions-with-unlike-denominators/v/adding-fractions-with-unlike-denominators-introduction",
+          "type": "video"
+        },
+        {
+          "title": "Practice: Adding Fractions",
+          "url": "https://www.khanacademy.org/math/cc-fifth-grade-math/imp-fractions-3/imp-adding-and-subtracting-fractions-with-unlike-denominators/e/adding_fractions",
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "id": "negatives",
+      "title": "Negative Numbers",
+      "overview": "Master adding, subtracting, and working with negative numbers!",
+      "explanation": [
+        "Negative numbers are numbers less than zero. They appear to the left of zero on the number line. Understanding how to work with negatives is a superpower in math!",
+        "Think of the number line as a road. Adding moves you **right**, subtracting moves you **left**. Adding a negative number is like adding a move to the left. Two negatives make a positive when multiplying or dividing."
+      ],
+      "worked_example": {
+        "problem": "Calculate: -3 + (-5)",
+        "steps": [
+          "Step 1: Start at -3 on the number line.",
+          "Step 2: Adding (-5) means moving 5 steps to the LEFT.",
+          "Step 3: From -3, move left: -4, -5, -6, -7, -8.",
+          "Step 4: You land on -8."
+        ],
+        "answer": "-8"
+      },
+      "key_takeaways": [
+        "Adding a negative is the same as subtracting a positive.",
+        "Subtracting a negative is the same as adding a positive.",
+        "Use the number line to visualize where you end up."
+      ],
+      "resources": [
+        {
+          "title": "Add & Subtract Negative Numbers (Khan Academy)",
+          "url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-negative-numbers-add-and-subtract",
+          "type": "article"
+        },
+        {
+          "title": "Why Subtracting a Negative = Adding",
+          "url": "https://www.khanacademy.org/v/why-subtracting-a-negative-equivalent-to-adding-a-positive",
+          "type": "video"
+        },
+        {
+          "title": "Practice: Integer Addition & Subtraction",
+          "url": "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-negative-numbers-add-and-subtract/cc-7th-add-and-sub-integers/e/integer-addition-and-subtraction-2",
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "id": "linear-equations",
+      "title": "Linear Equations",
+      "overview": "Learn to solve equations and find the mystery value of x!",
+      "explanation": [
+        "An equation is like a balance scale. Whatever you do to one side, you must do to the other side to keep it balanced. Your goal is to get the variable (usually x) alone on one side.",
+        "To isolate x, use **inverse operations**: undo addition with subtraction, undo multiplication with division. Work step by step, always keeping the equation balanced."
+      ],
+      "worked_example": {
+        "problem": "Solve: 2x + 3 = 11",
+        "steps": [
+          "Step 1: We want x alone. First, undo the +3 by subtracting 3 from both sides.",
+          "Step 2: 2x + 3 - 3 = 11 - 3 → 2x = 8.",
+          "Step 3: Now undo the ×2 by dividing both sides by 2.",
+          "Step 4: 2x ÷ 2 = 8 ÷ 2 → x = 4.",
+          "Step 5: Check: 2(4) + 3 = 8 + 3 = 11 ✓"
+        ],
+        "answer": "x = 4"
+      },
+      "key_takeaways": [
+        "Whatever you do to one side, do to the other side.",
+        "Undo addition/subtraction first, then multiplication/division.",
+        "Always check your answer by plugging it back in."
+      ],
+      "resources": [
+        {
+          "title": "One-Step & Two-Step Equations (Khan Academy)",
+          "url": "https://www.khanacademy.org/math/pre-algebra/xb4832e56%3Aone-step-and-two-step-equations-inequalities",
+          "type": "article"
+        },
+        {
+          "title": "One-Step Equation Review",
+          "url": "https://www.khanacademy.org/math/algebra-home/alg-basic-eq-ineq/alg-one-step-mult-div-equations/a/one-step-equation-review",
+          "type": "article"
+        },
+        {
+          "title": "Practice: One-Step Equations",
+          "url": "https://www.khanacademy.org/math/get-ready-for-8th-grade/x465f0793a1788a3f%3Aget-ready-for-solving-equations-and-systems-of-equations/x465f0793a1788a3f%3Aone-step-addition-and-subtraction-equations/e/one_step_equations",
+          "type": "practice"
+        }
+      ]
+    },
+    {
+      "id": "mixed-review",
+      "title": "Mixed Review",
+      "overview": "Practice all topics together to strengthen your skills!",
+      "explanation": [
+        "The best way to solidify your learning is to practice problems from different topics in random order. This forces your brain to recognize which strategy to use for each problem.",
+        "When you see a problem, first identify what type it is: Is it about fractions? Negative numbers? Solving an equation? Then apply the right approach."
+      ],
+      "worked_example": {
+        "problem": "Mixed problems help you switch between thinking modes!",
+        "steps": [
+          "Step 1: Read the problem carefully.",
+          "Step 2: Identify the topic (fractions, negatives, or equations).",
+          "Step 3: Apply the strategy you learned for that topic.",
+          "Step 4: Check your work before moving on."
+        ],
+        "answer": "Practice makes permanent!"
+      },
+      "key_takeaways": [
+        "Identify the problem type before solving.",
+        "Use the strategy specific to that topic.",
+        "Regular mixed practice builds lasting skills."
+      ],
+      "resources": []
+    }
+  ]
+}

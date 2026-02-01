@@ -1,0 +1,43 @@
+<svg viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; height: auto;">
+  <!-- Background -->
+  <rect width="300" height="320" fill="#FFF9E6" rx="16"/>
+  
+  <!-- Title -->
+  <text x="150" y="30" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="18" font-weight="bold" fill="#4A4A4A">3/8 of the Pizza</text>
+  
+  <!-- Pizza crust (outer circle) -->
+  <circle cx="150" cy="160" r="100" fill="#D4A574" stroke="#B8956A" stroke-width="4"/>
+  
+  <!-- Pizza cheese (inner circle) -->
+  <circle cx="150" cy="160" r="90" fill="#FFE066"/>
+  
+  <!-- Shaded slices (3 out of 8) - bright orange/red for "eaten" -->
+  <path d="M150,160 L150,70 A90,90 0 0,1 213.64,96.36 Z" fill="#FF6B6B" stroke="#E55555" stroke-width="2"/>
+  <path d="M150,160 L213.64,96.36 A90,90 0 0,1 240,160 Z" fill="#FF6B6B" stroke="#E55555" stroke-width="2"/>
+  <path d="M150,160 L240,160 A90,90 0 0,1 213.64,223.64 Z" fill="#FF6B6B" stroke="#E55555" stroke-width="2"/>
+  
+  <!-- Unshaded slices outlines -->
+  <path d="M150,160 L213.64,223.64 A90,90 0 0,1 150,250 Z" fill="#FFE066" stroke="#D4A574" stroke-width="2"/>
+  <path d="M150,160 L150,250 A90,90 0 0,1 86.36,223.64 Z" fill="#FFE066" stroke="#D4A574" stroke-width="2"/>
+  <path d="M150,160 L86.36,223.64 A90,90 0 0,1 60,160 Z" fill="#FFE066" stroke="#D4A574" stroke-width="2"/>
+  <path d="M150,160 L60,160 A90,90 0 0,1 86.36,96.36 Z" fill="#FFE066" stroke="#D4A574" stroke-width="2"/>
+  <path d="M150,160 L86.36,96.36 A90,90 0 0,1 150,70 Z" fill="#FFE066" stroke="#D4A574" stroke-width="2"/>
+  
+  <!-- Pepperoni dots on shaded slices -->
+  <circle cx="175" cy="100" r="8" fill="#C94C4C"/>
+  <circle cx="210" cy="130" r="8" fill="#C94C4C"/>
+  <circle cx="215" cy="175" r="8" fill="#C94C4C"/>
+  
+  <!-- Pepperoni dots on unshaded slices -->
+  <circle cx="175" cy="220" r="8" fill="#E57373"/>
+  <circle cx="100" cy="200" r="8" fill="#E57373"/>
+  <circle cx="85" cy="140" r="8" fill="#E57373"/>
+  <circle cx="120" cy="100" r="8" fill="#E57373"/>
+  
+  <!-- Center dot -->
+  <circle cx="150" cy="160" r="6" fill="#D4A574"/>
+  
+  <!-- Label -->
+  <rect x="90" y="280" width="120" height="32" rx="16" fill="#FF6B6B"/>
+  <text x="150" y="302" text-anchor="middle" font-family="Comic Sans MS, cursive, sans-serif" font-size="16" font-weight="bold" fill="white">3 shaded = 3/8</text>
+</svg>
