@@ -19,7 +19,7 @@ export async function GET(request: NextRequest) {
     // In a full implementation, this would load language-specific content
     return NextResponse.json({
       title: notes.title,
-      overview: notes.overview,
+      overview: (notes as any).overview ?? "",
       mascot: notes.mascot,
       accent: notes.accent,
       language,
