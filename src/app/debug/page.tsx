@@ -3666,8 +3666,7 @@ export default function DebugPage() {
                 <div className={`p-3 rounded-lg text-center ${
                   translationResult.diagnoseResult?.status === "error"
                     ? "bg-red-50 border border-red-200"
-                    : (translationResult.evaluateResult?.isInTargetLanguage || 
-                       (translationResult.diagnoseResult && translationResult.diagnoseResult.status !== "error"))
+                    : (translationResult.evaluateResult?.isInTargetLanguage || Boolean(translationResult.diagnoseResult))
                     ? "bg-green-50 border border-green-200"
                     : "bg-gray-50 border border-gray-200"
                 }`}>
@@ -3675,15 +3674,13 @@ export default function DebugPage() {
                   <p className={`text-lg font-bold ${
                     translationResult.diagnoseResult?.status === "error"
                       ? "text-red-700"
-                      : (translationResult.evaluateResult?.isInTargetLanguage || 
-                         (translationResult.diagnoseResult && translationResult.diagnoseResult.status !== "error"))
+                      : (translationResult.evaluateResult?.isInTargetLanguage || Boolean(translationResult.diagnoseResult))
                       ? "text-green-700"
                       : "text-gray-500"
                   }`}>
                     {translationResult.diagnoseResult?.status === "error"
                       ? "✗ FAIL"
-                      : (translationResult.evaluateResult?.isInTargetLanguage || 
-                         (translationResult.diagnoseResult && translationResult.diagnoseResult.status !== "error"))
+                      : (translationResult.evaluateResult?.isInTargetLanguage || Boolean(translationResult.diagnoseResult))
                       ? "✓ PASS"
                       : "— PENDING"}
                   </p>
