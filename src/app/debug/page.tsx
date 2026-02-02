@@ -3845,12 +3845,10 @@ export default function DebugPage() {
                         <p className="text-sm font-medium">{translationResult.diagnoseResult.teachBackPrompt || "—"}</p>
                       </div>
                       {/* Detection debug info */}
-                      {translationResult.diagnoseResult.status !== "error" && (
-                        <div className="bg-gray-50 rounded p-2 text-xs text-gray-600">
-                          <p><strong>Detected:</strong> {translationResult.diagnoseResult.detection.tag} ({(translationResult.diagnoseResult.detection.confidence * 100).toFixed(0)}%)</p>
-                          <p className="text-gray-500 truncate">{translationResult.diagnoseResult.detection.notes}</p>
-                        </div>
-                      )}
+                      <div className="bg-gray-50 rounded p-2 text-xs text-gray-600">
+                        <p><strong>Detected:</strong> {translationResult.diagnoseResult.detection.tag} ({(translationResult.diagnoseResult.detection.confidence * 100).toFixed(0)}%)</p>
+                        <p className="text-gray-500 truncate">{translationResult.diagnoseResult.detection.notes}</p>
+                      </div>
                     </div>
                   )}
                 </div>
