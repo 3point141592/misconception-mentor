@@ -508,7 +508,17 @@ function SpeechBubble({ text, onClose }: { text: string; onClose?: () => void })
 // Drag threshold in pixels (prevent accidental drags)
 const DRAG_THRESHOLD = 8;
 
-export function TeacherAvatar({
+export function TeacherAvatar(props: TeacherAvatarProps) {
+  const { settings } = useDelight();
+
+  // Only render the hook-heavy component when enabled.
+  // This avoids "hooks called conditionally" build errors.
+  if (!settings.avatarEnabled) return null;
+
+  return <TeacherAvatarInner {...props} />;
+}
+
+function TeacherAvatarInner({
   state: propState,
   bubbleText,
   showBubble: propShowBubble,
@@ -545,11 +555,6 @@ export function TeacherAvatar({
   
   // Get avatar size from settings
   const avatarSize = AVATAR_SIZES[settings.avatarSize];
-  
-  // Don't render if avatar is disabled
-  if (!settings.avatarEnabled) {
-    return null;
-  }
   
   // Drag handlers
   const handlePointerDown = (e: React.PointerEvent) => {
